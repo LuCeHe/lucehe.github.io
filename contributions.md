@@ -4,18 +4,25 @@ title: Publications
 permalink: /publications/
 ---
 
-# Publications
-
-Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding, Simon Brodeur, Luca Celotti, Jean Rouat, GLU 2017 International Workshop on Grounding Language Understanding
-
-HoME: a Household Multimodal Environment, Simon Brodeur, Ethan Perez, Ankesh Anand, Florian Golemo, Luca Celotti, Florian Strub, Jean Rouat, Hugo Larochelle, Aaron
-Courville, ArXiv preprint
+# Articles
 
 
+<tr>
+   <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
+       <td valign="middle" width="760"><p><font color="red">Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding</font><br>
+       Simon Brodeur, <strong>Luca Celotti</strong>, Jean Rouat<br>
+   GLU 2017 International Workshop on Grounding Language Understanding<em><br>
+   <span style="font-weight: normal;">[<a href="http://www.speech.kth.se/glu2017/papers/GLU2017_paper_16.pdf">paper</a>] [<a href="https://ieee-dataport.org/open-access/create-multimodal-dataset-unsupervised-learning-and-generative-modeling-sensory-data">project</a>] </span>
+   </em></p></td>
+</tr>
 
-            <td align="center"><span style="vertical-align: middle; width: 189px; text-align: center;"><img src="pic/Corn.png" alt="" style="width: 200px; height: 49px;" width="300" height="74"></span></td>
-            <td valign="middle" align="left">Revealing &amp; Modifying Non-Local Variations in a Single Image <br>
-              <strong>Tali Dekel</strong>, Tomer Michaeli, Michal Irani, William T. Freeman <br>
-              ACM Transactions on Graphics (TOG). Proc. SIGGRAPH Asia&nbsp; 2015<br>
-              <span style="font-weight: normal;">[<a href="papers/NonLocalVariationsSIGA15.pdf">paper</a>] [<a href="NonLocalVariations.html">project</a>]</span> <br></td>
+<tr>
+   <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
+       <td valign="middle" width="760"><p>HoME: a Household Multimodal Environment<br>
+       Simon Brodeur, Ethan Perez, Ankesh Anand, Florian Golemo, <strong>Luca Celotti</strong>, Florian Strub, Jean Rouat, Hugo Larochelle, Aaron
+Courville <br>
+   ArXiv preprint<em><br>
+   <span style="font-weight: normal;">[<a href="https://arxiv.org/pdf/1711.11017.pdf">paper</a>] [<a href="https://home-platform.github.io/">project</a>] </span>
+   </em></p></td>
+</tr>
           
