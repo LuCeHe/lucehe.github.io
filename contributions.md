@@ -8,7 +8,7 @@ permalink: /publications/
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color=C60>HoME: a Household Multimodal Environment</font><br>
+       <td valign="middle" width="760"><p><font color="SandyBrown">HoME: a Household Multimodal Environment</font><br>
        Simon Brodeur, Ethan Perez, Ankesh Anand, Florian Golemo, <strong>Luca Celotti</strong>, Florian Strub, Jean Rouat, Hugo Larochelle, Aaron
 Courville <br>
    ICLR Workshop Paper<em><br>
@@ -19,7 +19,7 @@ Courville <br>
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="F63">Language coverage and generalization
+       <td valign="middle" width="760"><p><font color="SandyBrown">Language coverage and generalization
 in RNN-based continuous sentence embeddings
 for interacting agents</font><br>
        <strong>Luca Celotti</strong>, Simon Brodeur,  Jean Rouat<br>
@@ -32,7 +32,7 @@ Workshop<em><br>
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="SaddleBrown">Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding</font><br>
+       <td valign="middle" width="760"><p><font color="SandyBrown">Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding</font><br>
        Simon Brodeur, <strong>Luca Celotti</strong>, Jean Rouat<br>
    GLU 2017 International Workshop on Grounding Language Understanding<em><br>
    <span style="font-weight: normal;">[<a href="http://www.speech.kth.se/glu2017/papers/GLU2017_paper_16.pdf">paper</a>] [<a href="https://ieee-dataport.org/open-access/create-multimodal-dataset-unsupervised-learning-and-generative-modeling-sensory-data">project</a>] </span>
