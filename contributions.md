@@ -8,7 +8,7 @@ permalink: /publications/
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="SaddleBrown">HoME: a Household Multimodal Environment</font><br>
+       <td valign="middle" width="760"><p><font color="C60">HoME: a Household Multimodal Environment</font><br>
        Simon Brodeur, Ethan Perez, Ankesh Anand, Florian Golemo, <strong>Luca Celotti</strong>, Florian Strub, Jean Rouat, Hugo Larochelle, Aaron
 Courville <br>
    ICLR Workshop Paper<em><br>
@@ -19,7 +19,7 @@ Courville <br>
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="SaddleBrown">Language coverage and generalization
+       <td valign="middle" width="760"><p><font color="F63">Language coverage and generalization
 in RNN-based continuous sentence embeddings
 for interacting agents</font><br>
        <strong>Luca Celotti</strong>, Simon Brodeur,  Jean Rouat<br>
