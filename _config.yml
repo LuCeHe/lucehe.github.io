@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Luca Herrtti (Celotti Herranz)
+name: Luca Herrtti <small>(Celotti Herranz)</small>
 
 # Short bio or description (displayed in the header)
 description: Now, Language Grounding.
@@ -18,7 +18,7 @@ avatar: https://avatars2.githubusercontent.com/u/9610770?s=460&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: manucelotti@gmail.com
   facebook:
   flickr:
   github: LuCeHe
