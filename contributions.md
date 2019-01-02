@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-# Articles
+## Articles
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
@@ -20,7 +20,7 @@ Courville <br>
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="DarkGoldenrod">Language coverage and generalization
+       <td valign="middle" width="760"><p><font color="Peru">Language coverage and generalization
 in RNN-based continuous sentence embeddings
 for interacting agents</font><br>
        <strong>Luca Celotti</strong>, Simon Brodeur,  Jean Rouat<br>
