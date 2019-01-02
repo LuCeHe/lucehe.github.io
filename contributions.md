@@ -8,7 +8,7 @@ permalink: /publications/
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="DarkGoldenrod">HoME: a Household Multimodal Environment</font><br>
+       <td valign="middle" width="760"><p><font color="Peru">HoME: a Household Multimodal Environment</font><br>
        Simon Brodeur, Ethan Perez, Ankesh Anand, Florian Golemo, <strong>Luca Celotti</strong>, Florian Strub, Jean Rouat, Hugo Larochelle, Aaron
 Courville <br>
 <font color="#A9A9A9">ICLR Workshop Paper</font> <br> <em>
@@ -31,7 +31,7 @@ for interacting agents</font><br>
 
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
-       <td valign="middle" width="760"><p><font color="SandyBrown">Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding</font><br>
+       <td valign="middle" width="760"><p><font color="Peru">Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding</font><br>
        Simon Brodeur, <strong>Luca Celotti</strong>, Jean Rouat<br>
 <font color="#A9A9A9">GLU 2017 International Workshop on Grounding Language Understanding</font> <br> <em>
 <span style="font-weight: normal;">[<a href="http://www.speech.kth.se/glu2017/papers/GLU2017_paper_16.pdf">paper</a>] [<a href="https://ieee-dataport.org/open-access/create-multimodal-dataset-unsupervised-learning-and-generative-modeling-sensory-data">project</a>] </span>
