@@ -11,7 +11,7 @@ permalink: /publications/
        <td valign="middle" width="760"><p><font color="DarkGoldenrod">HoME: a Household Multimodal Environment</font><br>
        Simon Brodeur, Ethan Perez, Ankesh Anand, Florian Golemo, <strong>Luca Celotti</strong>, Florian Strub, Jean Rouat, Hugo Larochelle, Aaron
 Courville <br>
-<p style="color: #A9A9A9">ICLR Workshop Paper</p> <em>
+<p style="color: #A9A9A9; margin: 0px">ICLR Workshop Paper</p> <em>
    <span style="font-weight: normal;">[<a href="https://openreview.net/pdf?id=B1pJ3dkwG">paper</a>] [<a href="https://home-platform.github.io/">project</a>] </span>
    </em></p></td>
 </tr>
