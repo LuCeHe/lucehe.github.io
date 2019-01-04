@@ -21,7 +21,7 @@ communication. They have a few citations and I'm checking right now the most rec
 https://www.researchgate.net/publication/263916095_The_Creative_Person_in_Science
 )
 
-"Now that the creative person in general is better understood, the
+> "Now that the creative person in general is better understood, the
 next question arises: To what extent are these psychological influences on creative thought and behavior domain specific or domain
 general?"
 
@@ -103,6 +103,10 @@ and sex, are held constant."
 [Trait and Behavioral Theories of Leadership: an Integration and Meta-Analytic Test of Their Relative Validity](
 https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1744-6570.2010.01201.x
 )
+
+Critiques of the leader trait paradigm (Jenkins, 1947; Mann, 1959;
+Stogdill, 1948) prompted scholars to look beyond leader traits and
+consider how leaders’ behaviors predicted effectiveness
 
 [Emplyers Rate Career Competencies, New Hire Proficiency](
 http://www.naceweb.org/career-readiness/competencies/employers-rate-career-competencies-new-hire-proficiency/
