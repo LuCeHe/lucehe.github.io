@@ -18,4 +18,4 @@ manucelotti at gmail.com
 
 
 ### CV
-[here]({{ site.baseurl }}/images/Luca Celotti - CV.pdf)
+[here]({{ site.baseurl }}/files/Luca Celotti - CV.pdf)
