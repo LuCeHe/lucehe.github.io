@@ -46,6 +46,60 @@ more attainable"
 have greater influence on creative achievement than cognitive
 abilities, such as intelligence"
 
+"According to Feist,
+creative people in general share a number of personality traits.
+They are more autonomous, introverted, open to experience,
+driven, and impulsive"
+
+"However, there are some differences between creative artists 
+and scientists. Creative artists tend to be emotionally unstable, 
+sensitive, imaginative, and impulsive, whereas creative scientists 
+are arrogant, self-confident, ambitious, and autonomous"
+
+"Some researchers have reported that personality characteristics
+have greater influence on creative achievement than cognitive abilities, such as intelligence"
+
+"As a result, more creative scientists scored lower on conscientiousness and agreeableness."
+
+“biologicalfunctional model of personality.”
+
+"Many researchers have agreed that publication and citation
+counts are reliable and robust measures of creative output in
+science"
+
+" Moreover, we defined creative product as “new-anduseful” and, thus, we suggest accessing the novelty aspect of the
+scientific product by calculating the total number of publications
+produced by a scientist, and the usefulness aspect by calculating
+how often this publication was cited.
+"
+
+"the h-index and
+the creativity index—that correct for the number of self-citations,"
+
+"Hypotheses
+Based on the findings from previous research studies, we predicted positive relationships between creativity and the personality
+traits of openness and neuroticism (G. J. Feist, 1998). Creativity
+and agreeableness, on the other hand, would be negatively correlated (Feist, 1993; G. J. Feist & Barron, 2003). Creativity and
+psychoticism would be positively correlated, and highly creative
+scientists would score higher on the trait of psychoticism than less
+creative peers (H. J. Eysenck, 1993). Moreover, we predicted that
+these relationships would hold once covariates, such as career age
+and sex, are held constant."
+
+" As predicted, all creativity measures (the overall creativity score, Ci, h-index, and creativity index), except Pi, correlated significantly and positively to openness"
+"openness does not have direct influence on the productivity of a scientist and mostly affects their impact on the field"
+"Contrary to prediction, the most productive, creative scientists were lower rather than higher on psychoticism. The correlation for Pi and psychoticism was r =- .19 (p  .05), and for psychoticism and h-index, r =- .18 (p  .05)."
+
+"Interestingly, sex did not correlate with overall creativity, suggesting that men and women are equally creative in their scientific productivity."
+
+
+
+
+
+
+
+
+
 [Trait and Behavioral Theories of Leadership: an Integration and Meta-Analytic Test of Their Relative Validity](
 https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1744-6570.2010.01201.x
 )
