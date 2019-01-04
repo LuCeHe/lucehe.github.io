@@ -17,4 +17,5 @@ luca.celotti at usherbrooke.ca
 manucelotti at gmail.com
 
 
-### [CV]({{ site.baseurl }}/images/Luca Celotti - CV.pdf)
+### CV
+[here]({{ site.baseurl }}/images/Luca Celotti - CV.pdf)
