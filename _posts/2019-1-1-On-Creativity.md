@@ -108,6 +108,34 @@ Critiques of the leader trait paradigm (Jenkins, 1947; Mann, 1959;
 Stogdill, 1948) prompted scholars to look beyond leader traits and
 consider how leaders’ behaviors predicted effectiveness
 
+The lack of integration in leadership research is evident both within
+and across the trait and behavior paradigms, as research within each
+paradigm generally focuses on a single trait or behavioral perspective
+
+However, because there
+was no integration across traits, it remains unclear as to whether these are
+independent effects.
+
+” In this study, we focus on four distinct leadership effectiveness criteria: (a) individual leader effectiveness, (b) group performance,
+(c) follower satisfaction with leader, and (d) follower job satisfaction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Emplyers Rate Career Competencies, New Hire Proficiency](
 http://www.naceweb.org/career-readiness/competencies/employers-rate-career-competencies-new-hire-proficiency/
 )
