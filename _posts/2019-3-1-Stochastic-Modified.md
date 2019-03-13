@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is it!
-published: true
+published: false
 ---
 
 Two papers have brought new clarity to my understanding on deep networks.
