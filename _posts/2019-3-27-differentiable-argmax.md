@@ -132,11 +132,11 @@ class DifferentiableArgmax(Layer):
 
 ```
 
-Here I chose to output return ``` python [inputs, token] ```, to prove that the network is actually outputting the argmax (token) of the input probability distribution (inputs).
+Here I chose to output return ```python return [inputs, token] ```, to prove that the network is actually outputting the argmax (token) of the input probability distribution (inputs).
 
 We can implement the following test:
 
-``` python
+```python
 
 def test_Dargmax():
     print("""
@@ -192,4 +192,5 @@ that prints
 Which is simply a differentiable argmax :)
 
 Hope you liked it! and see you next time ;)
+
 Luca
