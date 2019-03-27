@@ -90,7 +90,8 @@ The ouput is in fact
          
 ```
 
-However, if one realizes that by multiplying a probability distribution by itself and normalizing a few times, the extreme values are going to get more extreme, until one gets a one-hot localization of the maximal value.
+However, if one realizes that by multiplying a probability distribution by itself and normalizing a few times, the extreme values are going to get more extreme, until one gets a one-hot localization of the maximal value. Then by a sequence of cumsum, clip and reduce_sum one can get the element with the maximal probability value.
+
 I assume we lose in speed, since several operations have to be put in place, and we gain the differentiability property.
 
 My brute force attempt, that I still have to make flexible to any input shape (check the len variable, and a few places where I might not have been careful enough yet):
@@ -131,3 +132,64 @@ class DifferentiableArgmax(Layer):
 
 ```
 
+Here I chose to output return ``` python [inputs, token] ```, to prove that the network is actually outputting the argmax (token) of the input probability distribution (inputs).
+
+We can implement the following test:
+
+``` python
+
+def test_Dargmax():
+    print("""
+          Test Differentiable Argmax Layer
+          
+          """)
+    
+    tokens_input = Input((None,))
+    embed = Embedding(10, 3)(tokens_input)
+    lstm = LSTM(20, return_sequences=False)(embed)
+    softmax = Dense(3, activation='softmax')(lstm)  # TimeDistributed(Activation('softmax'))(lstm)
+    token = DifferentiableArgmax()(softmax)
+    model = Model(tokens_input, token)
+    
+    example_tokens = np.array([[1, 2, 7],
+                               [3, 9, 6]])
+    
+    prediction = model.predict(example_tokens)
+    print(prediction)
+    
+    weights = model.trainable_weights  # weight tensors
+    grad = tf.gradients(xs=weights, ys=model.output)
+    
+    print('')
+    for g, w in zip(grad, weights):
+        print(w)
+        print('        ', g) 
+
+```
+
+that prints
+   
+``` python
+
+[array([[0.33680093, 0.33017144, 0.33302763],
+       [0.3325285 , 0.33487532, 0.33259618]], dtype=float32), array([0., 1.], dtype=float32)]
+
+<tf.Variable 'embedding_1/embeddings:0' shape=(10, 3) dtype=float32_ref>
+         IndexedSlices(indices=Tensor("gradients/embedding_1/embedding_lookup_grad/Reshape_1:0", shape=(?,), dtype=int32), values=Tensor("gradients/embedding_1/embedding_lookup_grad/Reshape:0", shape=(?, 3), dtype=float32), dense_shape=Tensor("gradients/embedding_1/embedding_lookup_grad/ToInt32:0", shape=(2,), dtype=int32))
+<tf.Variable 'lstm_1/kernel:0' shape=(3, 80) dtype=float32_ref>
+         Tensor("gradients/AddN_11:0", shape=(3, 80), dtype=float32)
+<tf.Variable 'lstm_1/recurrent_kernel:0' shape=(20, 80) dtype=float32_ref>
+         Tensor("gradients/AddN_10:0", shape=(20, 80), dtype=float32)
+<tf.Variable 'lstm_1/bias:0' shape=(80,) dtype=float32_ref>
+         Tensor("gradients/AddN_9:0", shape=(80,), dtype=float32)
+<tf.Variable 'dense_1/kernel:0' shape=(20, 3) dtype=float32_ref>
+         Tensor("gradients/dense_1/MatMul_grad/MatMul_1:0", shape=(20, 3), dtype=float32)
+<tf.Variable 'dense_1/bias:0' shape=(3,) dtype=float32_ref>
+         Tensor("gradients/dense_1/BiasAdd_grad/BiasAddGrad:0", shape=(3,), dtype=float32)
+
+```
+
+Which is simply a differentiable argmax :)
+
+Hope you liked it! and see you next time ;)
+Luca
