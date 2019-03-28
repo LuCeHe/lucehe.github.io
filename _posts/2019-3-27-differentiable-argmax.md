@@ -190,7 +190,7 @@ that prints
 
 ```
 
-Which is simply a differentiable argmax :)
+Which is simply a differentiable argmax :) You can check the whole functional code on [GitHub](https://github.com/LuCeHe/codes4blog/blob/master/differentiable_argmax.py).
 
 Hope you liked it! and see you next time ;)
 
