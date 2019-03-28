@@ -2,6 +2,7 @@
 layout: post
 title: Differentiable Argmax!
 published: true
+comments: true
 ---
 
 Argmax allows us to identify the most likely item in a probability distribution. But there 
