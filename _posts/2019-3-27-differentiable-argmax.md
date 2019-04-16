@@ -192,6 +192,8 @@ that prints
 
 Which is simply a differentiable argmax :) You can check the whole functional code on [GitHub](https://github.com/LuCeHe/codes4blog/blob/master/differentiable_argmax.py).
 
+$h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$
+
 Hope you liked it! and see you next time ;)
 
 Luca
