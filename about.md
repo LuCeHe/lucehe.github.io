@@ -14,7 +14,7 @@ For my PhD I'm working to make robots able to acquire language during dialogue w
 
 luca.celotti at usherbrooke.ca
 
-manucelotti at gmail.com
+luca.herrtti at gmail.com
 
 
 ### CV
