@@ -6,6 +6,18 @@ permalink: /publications/
 
 ## Articles
 
+
+<tr>
+   <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
+       <td valign="middle" width="760"><p><font color="Peru">AriEL: volume coding for sentence generation</font><br>
+       <strong>Luca Celotti</strong>, Simon Brodeur, Jean Rouat <br>
+<font color="#A9A9A9">submitted to IEEE TPAMI</font> <br> <em>
+   <span style="font-weight: normal;">[<a href="https://arxiv.org/pdf/2003.13600.pdf" target="_blank">paper</a>]  </span>
+   </em></p></td>
+</tr>
+
+
+
 <tr>
    <td width="250"><img src="figs/recon_face-01.png" alt="" width="250" height="85"></td>
        <td valign="middle" width="760"><p><font color="Peru">HoME: a Household Multimodal Environment</font><br>
