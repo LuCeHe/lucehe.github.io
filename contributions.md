@@ -7,7 +7,7 @@ permalink: /publications/
 ## Articles
 
 <tr>
-<td valign="middle" width="760"><p><font color="Peru">Speaker-independent Brain Enhanced Speech denoising</font><br>
+<td valign="middle" width="760"><p><font color="Peru">Speaker-independent Brain Enhanced Speech Denoising</font><br>
 Maryam Hosseini, <strong>Luca Celotti</strong>, Éric Plourde <br>
 <font color="#A9A9A9">submitted to ICASSP</font> <br> <em>
    <span style="font-weight: normal;">[<a href="https://github.com/LuCeHe/lucehe.github.io/blob/master/files/auditory_attention_inspired_speech_enhancement_ICASSP.pdf
@@ -17,10 +17,18 @@ Maryam Hosseini, <strong>Luca Celotti</strong>, Éric Plourde <br>
 
 
 <tr>
-<td valign="middle" width="760"><p><font color="Peru">AriEL: volume coding for sentence generation</font><br>
+<td valign="middle" width="760"><p><font color="Peru">Improving Zero-Shot Neural Architecture Search with Parameters Scoring</font><br>
+<strong>Luca Celotti</strong>, Ismael Balafrej, Emmanuel Calvet <br>
+<font color="#A9A9A9">submitted to ICLR</font> <br> <em>
+   <span style="font-weight: normal;">[<a href="https://openreview.net/pdf?id=4QpDyzCoH01" target="_blank">paper</a>]  </span>
+   </em></p></td>
+</tr>
+
+<tr>
+<td valign="middle" width="760"><p><font color="Peru">AriEL: Volume Coding for Sentence Generation Comparisons</font><br>
 <strong>Luca Celotti</strong>, Simon Brodeur, Jean Rouat <br>
-<font color="#A9A9A9">submitted to IEEE TPAMI</font> <br> <em>
-   <span style="font-weight: normal;">[<a href="https://arxiv.org/pdf/2003.13600.pdf" target="_blank">paper</a>]  </span>
+<font color="#A9A9A9">submitted to ICLR</font> <br> <em>
+   <span style="font-weight: normal;">[<a href="https://openreview.net/pdf?id=sebtMY-TrXh" target="_blank">paper</a>]  </span>
    </em></p></td>
 </tr>
 
