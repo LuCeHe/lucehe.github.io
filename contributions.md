@@ -6,12 +6,12 @@ permalink: /publications/
 
 ## Articles
 
-
 <tr>
 <td valign="middle" width="760"><p><font color="Peru">Speaker-independent Brain Enhanced Speech denoising</font><br>
 Maryam Hosseini, <strong>Luca Celotti</strong>, Éric Plourde <br>
 <font color="#A9A9A9">submitted to ICASSP</font> <br> <em>
-   <span style="font-weight: normal;">[[paper]({{ site.baseurl }}/files/auditory_attention_inspired_speech_enhancement_ICASSP.pdf)]  </span>
+   <span style="font-weight: normal;">[<a href="https://github.com/LuCeHe/lucehe.github.io/blob/master/files/auditory_attention_inspired_speech_enhancement_ICASSP.pdf
+" target="_blank">paper</a>]  </span>
    </em></p></td>
 </tr>
 
