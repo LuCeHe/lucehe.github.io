@@ -18,4 +18,4 @@ luca.herrtti at gmail.com
 
 
 ### CV
-[here]({{ site.baseurl }}/files/Luca Celotti - CV.pdf)
+[here]({{ site.baseurl }}/files/Luca Herrtti - CV.pdf)
