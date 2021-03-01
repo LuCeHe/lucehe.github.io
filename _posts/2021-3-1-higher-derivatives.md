@@ -7,12 +7,22 @@ comments: true
 
 The definition of a derivative states that
 
+$$
+f^{(1)}(a) = \lim_{h\rightarrow 0}\frac{f^{(0)}(a+h)-f^{(0)}(a)}{h}
+$$
 
-\begin{align*}
-    f^{(n)}(a) = \lim_{h\rightarrow 0}\frac{f^{(n-1)}(a+h)-f^{(n-1)}(a)}{h}
-\end{align*}
+which means that the derivative is a metric about the relationship between two points. We prove that higher order derivatives are metrics about the relationship among several points.
+
+##### Theorem
+
+\begin{align}
+    f^{(n)}(a) = \frac{1}{h^l}\sum_{k=0}^l\binom{l}{k} (-1)^kf^{(n-l)}(a + (l-k)h) \label{eqn:binder}
+\end{align}
+
+##### Proof
 
 
+QED
 
 
 {% if page.comments %} 
