@@ -10,7 +10,7 @@ The definition of a derivative states that the derivative is a metric about the 
 ##### Theorem
 
 \begin{align}
-    f^{(n)}(a) = \frac{1}{h^l}\sum_{k=0}^l\binom{l}{k} (-1)^kf^{(n-l)}(a + (l-k)h) \label{eqn:binder}
+    f^{(n)}(a) = lim_{h\rightarrow 0}\frac{1}{h^l}\sum_{k=0}^l\binom{l}{k} (-1)^kf^{(n-l)}(a + (l-k)h) \label{eqn:binder}
 \end{align}
 
 ##### Proof
@@ -31,7 +31,7 @@ f^{(n)}(a) &= \lim_{h\rightarrow 0}\frac{f^{(n-1)}(a+h)-f^{(n-1)}(a)}{h}\\
  &= \lim_{h\rightarrow 0}\frac{\frac{f^{(n-3)}(a+3h)-f^{(n-3)}(a+2h)}{h}-2\frac{f^{(n-3)}(a+2h)-f^{(n-3)}(a+h)}{h}+\frac{f^{(n-3)}(a+h)-f^{(n-3)}(a)}{h}}{h^2}\\
  &= \lim_{h\rightarrow 0}\frac{f^{(n-3)}(a+3h)-3f^{(n-3)}(a+2h)+3f^{(n-3)}(a+h) -f^{(n-1)}(a)}{h^3}\\
  & = \cdots \nonumber \\
- & = \frac{1}{h^l}\sum_{k=0}^l\binom{l}{k} (-1)^kf^{(n-l)}(a + (l-k)h) 
+ & = lim_{h\rightarrow 0}\frac{1}{h^l}\sum_{k=0}^l\binom{l}{k} (-1)^kf^{(n-l)}(a + (l-k)h) 
 \end{align*}
 $$
 
