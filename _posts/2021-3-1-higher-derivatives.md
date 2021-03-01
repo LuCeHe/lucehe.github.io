@@ -1,17 +1,11 @@
 ---
 layout: post
-title: A higher derivative needs info from further away.
+title: A higher derivative gives info from further away.
 published: true
 comments: true
 ---
 
-The definition of a derivative states that
-
-$$
-f^{(1)}(a) = \lim_{h\rightarrow 0}\frac{f^{(0)}(a+h)-f^{(0)}(a)}{h}
-$$
-
-which means that the derivative is a metric about the relationship between two points. We prove that higher order derivatives are metrics about the relationship among several points.
+The definition of a derivative states that the derivative is a metric about the relationship between two points. We prove that higher order derivatives are metrics about the relationship among several points.
 
 ##### Theorem
 
