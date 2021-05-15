@@ -5,7 +5,7 @@ published: true
 comments: true
 ---
 
-The definition of a derivative states that the derivative is a metric about the relationship between two points. We prove that higher order derivatives are metrics about the relationship among several points.
+The definition of a derivative states that the derivative quantifies the relationship between two points. We prove that higher order derivatives quantify the relationship among several points.
 
 ##### Theorem
 
