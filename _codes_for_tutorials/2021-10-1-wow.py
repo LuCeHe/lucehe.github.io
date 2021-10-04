@@ -1,8 +1,7 @@
 import os, json, shutil
 import tensorflow as tf
 
-from GenericTools.KerasTools.esoteric_layers import AddLossLayer, ReplaceColumn
-from GenericTools.KerasTools.esoteric_models.transformer import GPT
+from GenericTools.KerasTools.esoteric_layers import AddLossLayer
 from GenericTools.KerasTools.huggingface_tools import HF_ModelUpgrade
 
 tf.compat.v1.enable_eager_execution()
@@ -45,7 +44,7 @@ def config():
     stop_time = 500  # 72000 = 20h, 54000 = 15h
     seed = 4
     model_name = 'E2E'
-    vocab_size = 34883 if not 'Pretrained' in model_name else 50257
+    vocab_size = 34883
 
     # comments = 'encoder_maxlen:128-decoder_maxlen:12'
     comments = ''
@@ -115,7 +114,7 @@ def main(show_dialogue, make_model, maxlen, max_knowledge, vocab_size, batch_siz
             TimeStopping(stop_time, 1),
         ]
 
-        tokenizer_choice = 'bpe' if not 'Pretrained' in model_name else 'gpt2'
+        tokenizer_choice = 'bpe'
         encoder_maxlen = str2val(comments, 'encoder_maxlen', int, default=maxlen, split_symbol='-')
         decoder_maxlen = str2val(comments, 'decoder_maxlen', int, default=maxlen, split_symbol='-')
         gen_train = WikipediaWizardGenerator(
