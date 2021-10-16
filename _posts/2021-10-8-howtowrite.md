@@ -38,7 +38,7 @@ because of what you did. Clarity is thus a tool to help others use your work.
 She suggests to be precise. Avoid generalities: the behaviour was good, better. Avoid 
 listing the obvious and don't repeat what is in the graphs. And avoid redundancy,
 you are going to lose the reader and they are going to think you don't have as much 
-to contribute. If you repeat sth important say why, don't just repeat it.
+to contribute. If you repeat something important say why, don't just repeat it.
 
 
 Use simple declarative sentences, eliminate all unnecessary words, use paragraphs 
@@ -49,7 +49,8 @@ Tell a story, no sudden ideas, no meandering. Don't start with the day you were 
 usually relevant. Order of presentation is the most difficult part and most important:
 before you start writing, think on the flow of the ideas, practice it with your workmates, 
 after lunch try a different order. 
-Explain the way you wished you got there, the quickest and clearest.
+Explain the way you wished you got there, the quickest and clearest. That's a cool
+way to put it.
 
 
 
