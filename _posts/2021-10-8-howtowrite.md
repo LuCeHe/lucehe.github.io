@@ -10,7 +10,9 @@ I've been recommended by my PhD supervisor to watch the video [Demystifying the 
 Super interesting and fully recommendable in my opinion too. As a teaser I'll 
 present a summary here, that I will structure in 3 axis: plagiarism, clarity and revision.
 
-**Plagiarism** definition she gives is 'using their ideas without explicitely acknowledging the original source'.
+**Plagiarism** 
+
+The definition she gives of plagiarism is 'using their ideas without explicitely acknowledging the original source'.
 I guess it's fairly obvious what it means. Rules are inflexible and it's easy to detect.
 The part I used to wonder about was, what to do when something is so well written in the 
 original article, that any rephrasing would make it worse. 
