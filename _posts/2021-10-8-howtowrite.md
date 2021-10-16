@@ -61,7 +61,7 @@ location, to write an article the three most important things are revision, revi
 revision. It's not only about the edits, the grammar, spelling: it applies to the flow of ideas.
 
 There's no way you will write a good paper on the first try, even having written hundreds
-of articles like she has. And it RRR applies to everybody, not only at the beginning
+of articles like she has. And RRR applies to everybody, not only at the beginning
 of your career. So, be patient. And interesting observation, RRR applies importantly to 
 self revisions: it's not enough to readjust it once, and send it to a collegue for an advice,
 you have to revise it many times yourself before asking for an opinion.
