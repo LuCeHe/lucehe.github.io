@@ -33,7 +33,23 @@ I liked an idea she stated in relation to this: when you will measure how succes
 you were, you will measure it by what you did, but as well by what others did
 because of what you did. Clarity is thus a tool to help others use your work.
  
-She suggests to be precise
+She suggests to be precise. Avoid generalities: the behaviour was good, better. Avoid 
+listing the obvious and don't repeat what is in the graphs. And avoid redundancy,
+you are going to lose the reader and they are going to think you don't have as much 
+to contribute. If you repeat sth important say why, don't just repeat it.
+
+
+Use simple declarative sentences, eliminate all unnecessary words, use paragraphs 
+because they let us catch our breath mentally. Be aware of the tendency to read first line of each 
+paragraph/section, and place there the main ideas.
+
+Tell a story, no sudden ideas, no meandering. Don't start with the day you were born: chronology of ideas is not 
+usually relevant. Order of presentation is the most difficult part and most important:
+before you start writing, think on the flow of the ideas, practice it with your workmates, 
+after lunch try a different order. 
+Explain the way you wished you got there, the quickest and clearest.
+
+
 
 **Revision, revision, revision**
 
@@ -62,33 +78,6 @@ possible so in the revision process you can move them around.
 
 
 
-- https://www.youtube.com/watch?v=CQmbN5hWhu8
-  - tell a story
-    - no sudden ideas
-    - no meandering
-    - don't start with the day you were born
-    - order of presentation is the most difficult part and most important
-    - before you start writing, think on the flow of the ideas
-    - practice the flow of ideas with your workmates
-    - after lunch try a different order
-    - chronology is not usually relevant
-    - explain the way you wished you got there, the quickest and clearest
-  - simple declarative sentences
-    - eliminate all unnecessary words
-  - use paragraphs
-    - paragraphs let us catch our breath mentally
-  - scan and read
-    - know your audience
-    - tendency to read first line of each paragraph/section
-    - inverted piramid for paragraphs, to the extent possible
-  - clarity 
-    - be specific, precise in your language
-    - avoid generalities: behaviour, good, better
-    - avoid listing the obvious
-      - don't repeat what is in the graph
-    - avoid redundancy
-      - you are going to lose the reader and they are going to think you don't have as much to contribute
-      - if you repeat sth important say why, don't just repeat it
 
 
 
