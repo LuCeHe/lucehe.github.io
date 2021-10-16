@@ -58,7 +58,7 @@ way to put it.
 
 If to sell a house the three most important things to consider are location, location, 
 location, to write an article the three most important things are revision, revision,
-revision. It's not only about the edits, the grammar, spelling: it applies to the flow of ideas.
+revision (RRR). It's not only about the edits, the grammar, spelling: it applies to the flow of ideas.
 
 There's no way you will write a good paper on the first try, even having written hundreds
 of articles like she has. And RRR applies to everybody, not only at the beginning
