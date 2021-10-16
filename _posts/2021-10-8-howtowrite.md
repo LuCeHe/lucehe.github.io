@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reacting to 'Demystifying the Writing of a Scientific Paper' .
-published: false
+published: true
 comments: true
 ---
 
@@ -29,23 +29,40 @@ so, you can only gain by taking every opportunity to work on communication skill
 Clarity makes the best impression. It is a mistake to think that you will gain
 something by making things look complicated: what you write should appear clear.
 Things can be complicated, but look simple.
-I liked an idea she stated in relation to this: when you will measure how successfull
+I liked an idea she stated in relation to this: when you will measure how successful
 you were, you will measure it by what you did, but as well by what others did
 because of what you did. Clarity is thus a tool to help others use your work.
  
 She suggests to be precise
 
+**Revision, revision, revision**
+
+If to sell a house the three most important things to consider are location, location, 
+location, to write an article the three most important things are revision, revision,
+revision. It's not only about the edits, the grammar, spelling: it applies to the flow of ideas.
+
+There's no way you will write a good paper on the first try, even having written hundreds
+of articles like she has. And it applies RRR applies to everybody, not only at the beginning
+of your career. So, be patient. And interesting observation, RRR applies importantly to 
+self revisions: it's not enough to readjust it once, and send it to a collegue for an advice,
+you have to revise it many times yourself before asking for an opinion.
+
+Be as well aware of your writer bias, we all have certain tendencies. Some of us tend to be verbose,
+other terse, other struggle with their English. I think one of my biases is that at times 
+I tend to over argue things. To defend an argument I tend to write too many things to defend it, and
+that can cause the reader to disconnect, or lose the flow and the purpose of the read. My advisor
+calls it 'noyer le poisson': 'to drown the fish'. So in the video she says: know your bias, and
+compensate for that natural bias.
+
+One observation she made that I liked was that you don't have to stick to the order of 
+ideas of the first version. And a cool advice about it: make sections, paragraphs as independent as 
+possible so in the revision process you can move them around.
+
+
+
+
+
 - https://www.youtube.com/watch?v=CQmbN5hWhu8
-  - 3 most important things to sell a house: location location location = revision revision revision
-    - you cannot write a good paper by writing it a first time
-      - she can't and she has written hundreds of documents
-    - evrybody, not only at the beginning of your carreer, 
-    - self revisions, many times before you send it to collaborators
-    - the nature of the beast
-  - be patient
-  - recognize your writer bias, we all have certain tendencies
-    - verbose, terse, english level
-    - compensate for that natural bias
   - tell a story
     - no sudden ideas
     - no meandering
@@ -56,11 +73,6 @@ She suggests to be precise
     - after lunch try a different order
     - chronology is not usually relevant
     - explain the way you wished you got there, the quickest and clearest
-  - revision revision revision
-    - it's not just the edits, the grammar, spelling
-    - applies to the flow of ideas
-    - you don't have to stick to the order of ideas of the first version
-    - make sections, paragraphs as independent as possible so in the revision process you can move them around
   - simple declarative sentences
     - eliminate all unnecessary words
   - use paragraphs
