@@ -1,7 +1,8 @@
 import os, json, shutil
 import tensorflow as tf
 
-from GenericTools.KerasTools.esoteric_layers import AddLossLayer
+from GenericTools.KerasTools.esoteric_layers import AddLossLayer, ReplaceColumn
+from GenericTools.KerasTools.esoteric_models.transformer import GPT
 from GenericTools.KerasTools.huggingface_tools import HF_ModelUpgrade
 
 tf.compat.v1.enable_eager_execution()
@@ -12,8 +13,8 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 
 from GenericTools.KerasTools.advanced_losses import *
 from GenericTools.KerasTools.esoteric_models.wizard_of_wikipedia import metrics_wow, switch_external_knowledge, \
-    tf_ContextKnowledgeEncoder, tf_ContextKnowledgeDecoder, UniversalSentenceEmbedding
-from GenericTools.KerasTools.esoteric_models.wizard_of_wikipedia import EndToEndModel
+    tf_ContextKnowledgeEncoder, tf_ContextKnowledgeDecoder, UniversalSentenceEmbedding, EndToEndModel, \
+    EndToEndModel_noKnowledge
 from GenericTools.KerasTools.esoteric_optimizers.optimizer_selection import get_optimizer
 from GenericTools.KerasTools.esoteric_tasks.wizard_of_wikipedia import WikipediaWizardGenerator
 from GenericTools.StayOrganizedTools.VeryCustomSacred import CustomExperiment, ChooseGPU
@@ -28,6 +29,7 @@ os.makedirs(DATAPATH, exist_ok=True)
 ex = CustomExperiment('dialogue', base_dir=CDIR, seed=0)
 models_dict = {
     'E2E': EndToEndModel,
+    'E2EnK': EndToEndModel_noKnowledge,
 }
 
 
@@ -39,17 +41,19 @@ def config():
     max_knowledge = 32
     batch_size = 4
     n_dialogues = 'full'  # -1 100 random
-    epochs = 1
-    steps_per_epoch = None
+    epochs = 5
+    steps_per_epoch = 2
     stop_time = 500  # 72000 = 20h, 54000 = 15h
-    seed = 4
+    seed = 5
+    # 'E2E', 'E2E_AriEL', 'E2E_AriEL_wLM', 'E2E_AriEL_wLM_sigmoid', 'E2E_AriEL_wLM_enc', 'E2E_AriEL_wLM_enc_sigmoid'
+    # E2E_AriEL_wLM_enc_layernorm
     model_name = 'E2E'
-    vocab_size = 34883
+    vocab_size = 34883 if not 'Pretrained' in model_name else 50257
 
     # comments = 'encoder_maxlen:128-decoder_maxlen:12'
     comments = ''
-    tests = ['on_data', 'max', 'beam', 'evaluations']
-    # tests = ['beam']
+    tests = ['on_data', 'max', 'beam', 'evaluations', 'dialogue']
+    # tests = []
     load_model_path = None
     # load_model_path = r'C:\Users\PlasticDiscobolus\work\ariel_tests\experiments\2021-09-26--15-58-52--8279-dialogue_\trained_models\model_weights.h5'
 
@@ -62,8 +66,9 @@ load_m = lambda x, mask_value, num_classes: tf.keras.models.load_model(
     {'tf_ContextKnowledgeEncoder': tf_ContextKnowledgeEncoder, 'tf_ContextKnowledgeDecoder': tf_ContextKnowledgeDecoder,
      'masked_xent': masked_sparse_crossentropy(mask_value), 'masked_perplexity': masked_sparse_perplexity(mask_value),
      'sparse_f1_on_max': sparse_f1_on_max(num_classes), 'masked_f1_on_max': masked_f1_on_max(num_classes, mask_value),
-     'UniversalSentenceEmbedding': UniversalSentenceEmbedding, 'AddLossLayer': AddLossLayer,
-     'sparse_perplexity': sparse_perplexity,      }
+     'GPT': GPT, 'UniversalSentenceEmbedding': UniversalSentenceEmbedding, 'AddLossLayer': AddLossLayer,
+     'sparse_perplexity': sparse_perplexity, 'ReplaceColumn': ReplaceColumn,
+     }
 )
 
 
@@ -114,7 +119,7 @@ def main(show_dialogue, make_model, maxlen, max_knowledge, vocab_size, batch_siz
             TimeStopping(stop_time, 1),
         ]
 
-        tokenizer_choice = 'bpe'
+        tokenizer_choice = 'bpe' if not 'Pretrained' in model_name else 'gpt2'
         encoder_maxlen = str2val(comments, 'encoder_maxlen', int, default=maxlen, split_symbol='-')
         decoder_maxlen = str2val(comments, 'decoder_maxlen', int, default=maxlen, split_symbol='-')
         gen_train = WikipediaWizardGenerator(
@@ -153,8 +158,16 @@ def main(show_dialogue, make_model, maxlen, max_knowledge, vocab_size, batch_siz
 
         else:
             model = load_m(load_model_path, mask_value=pad_idx, num_classes=vocab_size)
+        model.compile(
+            optimizer,
+            sparse_perplexity,  # masked_sparse_crossentropy(mask_value=pad_idx),
+            metrics=metrics_wow(num_classes=vocab_size, mask_value=pad_idx)
+        )
 
-        if os.path.exists(path_best_model):
+        save_model = str2val(comments, 'save_model', bool, default=False, split_symbol='-')
+        print(save_model)
+        if os.path.exists(path_best_model) and not save_model:
+            print('here!')
             os.remove(path_best_model)
         model.summary()
         # Re-evaluate the model
@@ -255,6 +268,39 @@ def main(show_dialogue, make_model, maxlen, max_knowledge, vocab_size, batch_siz
                         all_sentences.append('\nmodel generation:  {}'.format(generated_sentence))
         except Exception as e:
             print(e)
+
+        # try:
+        if True:
+            if 'dialogue' in tests:
+                gen_val = WikipediaWizardGenerator(
+                    data_path=DATAPATH, n_dialogues=n_dialogues, batch_size=batch_size, steps_per_epoch=steps_per_epoch,
+                    encoder_maxlen=encoder_maxlen, decoder_maxlen=decoder_maxlen, tokenizer_choice=tokenizer_choice,
+                    data_split='valid_random_split', shuffle=False)
+                for knowledge_switch in ['on', 'off']:
+                    switch_external_knowledge(model, state=knowledge_switch)
+                    all_sentences.append(
+                        '\n\nDialogue, HuggingFace beam-search, knowledge switch {}:'.format(knowledge_switch))
+
+                    for i in [0, 1, 2, 3]:
+                        base_input_batch = gen_val.__getitem__(i)[0]
+                        input_batch = base_input_batch
+                        hf_model = HF_ModelUpgrade(model, input_batch[:-1], gen_val.start_idx, pad_idx, pad_idx,
+                                                   vocab_size)
+
+                        generated_sentence = hf_model.generate(
+                            input_ids=tf.constant(input_batch[-1][:, 0][..., None]), num_beams=3,
+                            num_return_sequences=1,
+                            do_sample=True, max_length=decoder_maxlen, min_length=3, fixed_length_input=True,
+                            top_p=.02
+                        )
+
+                        for sample, context in zip(generated_sentence, input_batch[0]):
+                            generated_sentence = tokenizer.decode(sample)
+                            context_sentence = tokenizer.decode(context)
+                            all_sentences.append('\ncontext:           {}'.format(context_sentence))
+                            all_sentences.append('\nmodel generation:  {}'.format(generated_sentence))
+        # except Exception as e:
+        #     print(e)
 
         text_path = os.path.join(exp_dir, 'text', 'sentences.txt')
         with open(text_path, 'w', encoding="utf-8") as f:
