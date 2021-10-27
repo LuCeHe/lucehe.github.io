@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorBoard for Grads and individual weights.
+title: TensorBoard for Grads and Individual Weights.
 published: true
 comments: true
 ---
@@ -34,7 +34,7 @@ class ExtendedTensorBoard(tf.keras.callbacks.TensorBoard):
 ```
 
 I took as a starting point of the grads logging [this excellent medium post](https://medium.com/@leenabora1/how-to-keep-a-track-of-gradients-vanishing-exploding-gradients-b0bbaa1dcb93)
-and I extended it to be handle general models, with general inputs (multi-input case, no output case) and general losses
+and I extended it to handle general models, with general inputs (multi-input case, no output case) and general losses
 (auxiliary losses and no final loss cases). The final 
 ```python _log_grads``` looks like follows:
 
