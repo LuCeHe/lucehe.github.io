@@ -110,7 +110,8 @@ def _log_weights_individual(self, epoch):
 
 
 Let me know if it works for you or if it can be generalized to more use cases. For now it worked for all use 
-cases I tried, image and language, with and without final loss and auxiliary losses, and multiple inputs.
+cases I tried, image and language, with and without final loss and auxiliary losses, and multiple inputs. Let me know
+if you have any suggestion to improve it as well!
 
 
 
