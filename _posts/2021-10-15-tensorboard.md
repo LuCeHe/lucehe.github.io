@@ -33,10 +33,10 @@ class ExtendedTensorBoard(tf.keras.callbacks.TensorBoard):
         _log_weights_individual(self, epoch)
 ```
 
-I took as a starting point of the grads logging [this excellent medium post](https://medium.com/@leenabora1/how-to-keep-a-track-of-gradients-vanishing-exploding-gradients-b0bbaa1dcb93)
-and I extended it to handle general models, with general inputs (multi-input case, no output case) and general losses
-(auxiliary losses and no final loss cases). The final 
-```python _log_grads``` looks like follows:
+I took as a starting point for the grads logging [this excellent medium post](https://medium.com/@leenabora1/how-to-keep-a-track-of-gradients-vanishing-exploding-gradients-b0bbaa1dcb93)
+and I extended it to handle any model definition, with general inputs (multi-input case, no output case) and general losses
+(auxiliary losses and no output loss cases). The final 
+gradient logging looks like follows:
 
 ```python 
 def _log_grads(self, epoch):
