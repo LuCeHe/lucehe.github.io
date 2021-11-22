@@ -27,10 +27,10 @@ $$
 \end{align*}
 $$
 
-So if the variance is zero, all higher moments will be zero as well. Same reasoning 
+So, to answer to M: if the variance is zero, all higher moments will be zero as well. Same reasoning 
 applies for centered moments, only change $x^n$ to $(x-x_0)^n$. Interesting to think 
 that you can always bound a moment with other two, even if actually it's already bounded 
-by the integral of $|x^n|$, so, not that interesting after all. Like the third moment is 
+by the integral of $|x^n|$. Like the third moment is 
 bounded by the sqrt of the multiplication of the second and the fourth.
 
 For a gaussian central moments e.g. $E[x^3]\leq\sqrt{E[x^2]E[x^4]}$ is satisfied 
@@ -46,8 +46,9 @@ This result applies for general distribution, but it will become quite useless f
 for distributions that don't have a converging second moment, such as the Cauchy distribution.
 
 It is interesting to think that odd moments are bounded by even moments, but not necessarily 
-the other way around. Probably not true, use the general form of the Cauchy Swartz ineq, 
-where you don't use anymore $L_2$, but $L_q$.
+the other way around. But probably it is not true, and the general form of the Cauchy Swartz inequality, 
+where you don't use anymore $L_2$, but $L_q$, could be used to prove as well a bound on even 
+moments with odd moments.
 
 
 
