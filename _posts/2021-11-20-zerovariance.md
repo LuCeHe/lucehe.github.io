@@ -23,7 +23,7 @@ $$
 \begin{align*}
     |\int_{\mathbb{R}^{d}}x^np(x)dx|^2
     \leq & \int_{\mathbb{R}^{d}}|xp(x)^{1/2}|^2dx \int_{\mathbb{R}^{d}}|x^{n-1}p(x)^{1/2}|^2dx \\
-    = & \int_{\mathbb{R}^{d}}x^2p(x)dx \int_{\mathbb{R}^{d}}|x^{n-1}|^2p(x)dx
+    = & \int_{\mathbb{R}^{d}}x^2p(x)dx \int_{\mathbb{R}^{d}}x^{2(n-1)}p(x)dx
 \end{align*}
 $$
 
@@ -49,6 +49,9 @@ It is interesting to think that odd moments are bounded by even moments, but not
 the other way around. But probably it is not true, and the general form of the Cauchy Swartz inequality, 
 where you don't use anymore $L_2$, but $L_q$, could be used to prove as well a bound on even 
 moments with odd moments.
+
+
+
 
 
 
