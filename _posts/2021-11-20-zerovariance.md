@@ -27,8 +27,8 @@ $$
 \end{align*}
 $$
 
-So, to answer to M: if the variance is zero, all higher moments will be zero as well. Same reasoning 
-applies for centered moments, only change $x^n$ to $(x-x_0)^n$. Interesting to think 
+Same reasoning  applies for centered moments, only change $x^n$ to $(x-x_0)^n$.
+So, to answer to M: if the variance is zero, all higher moments will be zero as well. Interesting to think 
 that you can always bound a moment with other two, even if actually it's already bounded 
 by the integral of $|x^n|$. Like the third moment is 
 bounded by the sqrt of the multiplication of the second and the fourth.
