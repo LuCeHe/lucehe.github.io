@@ -60,32 +60,6 @@ $$
 \end{align*}
 $$
 
-and it makes me wonder if it has any value in bounding polinomials by 
-substituting $p(x)=\sum_iw_i\delta(x-x_i)$ where $\sum_iw_i=1$, since the momentum is given by
-
-$$
-\begin{align*}
-    E[x^n]  =& \int_{\mathbb{R}^{d}}x^np(x)dx\\
-            =&\int_{\mathbb{R}^{d}}x^n\sum_iw_i\delta(x-x_i)dx \\
-            =&\sum_iw_i\int_{\mathbb{R}^{d}}x^n\delta(x-x_i)dx\\
-            =&\sum_iw_ix_i^n
-\end{align*}
-$$
-
-so Theorem 2 would imply:
-
-
-
-$$
-\begin{align*}
-    \sum_iw_ix_i^n \leq \sqrt{\sum_iw_ix_i^{2m}\sum_iw_ix_i^{2n-2m}}
-\end{align*}
-$$
-
-where $w_i$ could be the normalized coefficients of any polynomial.
-
-Stop digressing! :)
-
 {% if page.comments %} 
 
 
