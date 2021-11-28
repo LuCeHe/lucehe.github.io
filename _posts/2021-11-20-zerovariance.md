@@ -50,6 +50,18 @@ the other way around. But probably it is not true, and the general form of the C
 where you don't use anymore $L_2$, but $L_q$, could be used to prove as well a bound on even 
 moments with odd moments.
 
+A minimal generalization is given by 
+
+$$
+\begin{align*}
+    |\int_{\mathbb{R}^{d}}x^np(x)dx|^2
+    \leq & \int_{\mathbb{R}^{d}}x^{2m}p(x)dx \int_{\mathbb{R}^{d}} x^{2n-2m}p(x)dx \\
+    E[x^n]\leq & \sqrt{E[x^{2m}]E[x^{2(n-m)}]}
+\end{align*}
+$$
+
+and it makes me wonder if it has any value in bounding polinomials by 
+substituting $p(x)=\sum_iw_i\delta(x-x_i)$ where $\sum_iw_i=1$.
 
 
 
