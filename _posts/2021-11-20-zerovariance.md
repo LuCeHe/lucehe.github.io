@@ -60,6 +60,9 @@ $$
 \end{align*}
 $$
 
+where $m$ can be any number, integer, real or complex.
+
+
 {% if page.comments %} 
 
 
