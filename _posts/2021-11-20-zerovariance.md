@@ -50,7 +50,7 @@ the other way around. But probably it is not true, and the general form of the C
 where you don't use anymore $L_2$, but $L_q$, could be used to prove as well a bound on even 
 moments with odd moments.
 
-A minimal generalization is given by 
+A minimal generalization is given by what I will call Theorem 2
 
 $$
 \begin{align*}
@@ -61,13 +61,30 @@ $$
 $$
 
 and it makes me wonder if it has any value in bounding polinomials by 
-substituting $p(x)=\sum_iw_i\delta(x-x_i)$ where $\sum_iw_i=1$.
+substituting $p(x)=\sum_iw_i\delta(x-x_i)$ where $\sum_iw_i=1$, since the momentum is given by
+
+$$
+\begin{align*}
+    E[x^n]  =& \int_{\mathbb{R}^{d}}x^np(x)dx\\
+            =&\int_{\mathbb{R}^{d}}x^n\sum_iw_i\delta(x-x_i)dx \\
+            =&\sum_iw_i\int_{\mathbb{R}^{d}}x^n\delta(x-x_i)dx\\
+            =&\sum_iw_ix_i^n
+\end{align*}
+$$
+
+so Theorem 2 would imply:
 
 
 
+$$
+\begin{align*}
+    \sum_iw_ix_i^n \leq \sqrt{\sum_iw_ix_i^{2m}\sum_iw_ix_i^{2n-2m}}
+\end{align*}
+$$
 
+where $w_i$ could be the normalized coefficients of any polynomial.
 
-
+Stop digressing! :)
 
 {% if page.comments %} 
 
