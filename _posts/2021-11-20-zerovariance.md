@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Consequences of zero variance distribution .
+title: Consequences of zero variance distribution
 published: true
 comments: true
 ---

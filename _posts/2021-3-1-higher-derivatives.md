@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A higher derivative gives info from further away.
+title: A higher derivative gives info from further away
 published: true
 comments: true
 ---

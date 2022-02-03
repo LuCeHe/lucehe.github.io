@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorBoard for Grads and Individual Weights.
+title: TensorBoard for Grads and Individual Weights
 published: true
 comments: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reacting to 'Demystifying the Writing of a Scientific Paper' .
+title: Reacting to 'Demystifying the Writing of a Scientific Paper' 
 published: true
 comments: true
 ---
