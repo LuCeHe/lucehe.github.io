@@ -6,29 +6,32 @@ permalink: /publications/
 
 ## Articles
 
+
+
+
+<tr>
+<td valign="middle" width="760"><p><font color="Peru">End-to-end brain-driven speech enhancement in multi-talker conditions</font><br>
+Maryam Hosseini, <strong>Luca Celotti</strong>, Éric Plourde <br>
+<font color="#A9A9A9">IEEE Transactions on Audio, Speech and Language Processing 2022</font> <br> <em>
+   <span style="font-weight: normal;">[<a href="https://www.techrxiv.org/articles/preprint/Speaker-Independent_Speech_Enhancement_with_Brain_Signals/16624477" target="_blank">paper</a>]  </span>
+   </em></p></td>
+</tr>
+
+
 <tr>
 <td valign="middle" width="760"><p><font color="Peru">Speaker-independent Brain Enhanced Speech Denoising</font><br>
 Maryam Hosseini, <strong>Luca Celotti</strong>, Éric Plourde <br>
-<font color="#A9A9A9">submitted to ICASSP</font> <br> <em>
-   <span style="font-weight: normal;">[<a href="https://github.com/LuCeHe/lucehe.github.io/blob/master/files/auditory_attention_inspired_speech_enhancement_ICASSP.pdf
-" target="_blank">paper</a>]  </span>
+<font color="#A9A9A9">ICASSP 2021</font> <br> <em>
+   <span style="font-weight: normal;">[<a href="https://ieeexplore.ieee.org/document/9414969" target="_blank">paper</a>]  </span>
    </em></p></td>
 </tr>
 
-
-<tr>
-<td valign="middle" width="760"><p><font color="Peru">Improving Zero-Shot Neural Architecture Search with Parameters Scoring</font><br>
-<strong>Luca Celotti</strong>, Ismael Balafrej, Emmanuel Calvet <br>
-<font color="#A9A9A9">submitted to ICLR</font> <br> <em>
-   <span style="font-weight: normal;">[<a href="https://openreview.net/pdf?id=4QpDyzCoH01" target="_blank">paper</a>]  </span>
-   </em></p></td>
-</tr>
 
 <tr>
 <td valign="middle" width="760"><p><font color="Peru">AriEL: Volume Coding for Sentence Generation Comparisons</font><br>
 <strong>Luca Celotti</strong>, Simon Brodeur, Jean Rouat <br>
-<font color="#A9A9A9">submitted to ICLR</font> <br> <em>
-   <span style="font-weight: normal;">[<a href="https://openreview.net/pdf?id=sebtMY-TrXh" target="_blank">paper</a>]  </span>
+<font color="#A9A9A9">pre-print</font> <br> <em>
+   <span style="font-weight: normal;">[<a href="https://openreview.net/pdf?id=qTTccuW4dja" target="_blank">paper</a>]  </span>
    </em></p></td>
 </tr>
 
