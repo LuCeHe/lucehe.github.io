@@ -10,7 +10,7 @@ of a recurrent network wrt to the hidden state at the previous time step, basica
 
 $$
 \begin{align*}
-    \frac{\parial h_t}{\parial h_{t-1}}
+    \frac{\partial h_t}{\partial h_{t-1}}
 \end{align*}
 $$
 
@@ -24,12 +24,13 @@ $$
 \begin{align*}
     h_t  =& W_h ReLU(h_{t-1}) \\
     c_t =& c_{t-1} - h_{t-1}+h_{t}\\
-    o_t =& c_{t-1} - h_{t-1}+h_{t}\\
+    o_t =& sigmoid(W_o x_{t}) +c_t\\
 \end{align*}
 $$
 
-where we have two hidden states, kind of like in the LSTM, and the output $o_t$ is 
-built as a combination of both.
+where we have two hidden states, $h_t, c_t$, kind of like in the LSTM, the output $o_t$ is 
+built as a combination of both, and the neuron receives the input $x_t$. As I said, it's not a genius architecture, 
+but it makes the code output easy to check. In tensorflow it looks like
 
 ```python
 
@@ -66,9 +67,67 @@ class customRNN(tf.keras.layers.Layer):
 
 ```
 
+We define the model construction as 
 
 
+```python
 
+def build_model():
+    input_layer = tf.keras.Input(shape=(1, input_dim), batch_size=batch_size)
+    hi = tf.keras.Input(shape=(units,), batch_size=batch_size)
+    ci = tf.keras.Input(shape=(units,), batch_size=batch_size)
+
+    cell = customRNN(units)
+    lstm = tf.keras.layers.RNN(cell, return_state=True, return_sequences=True, stateful=True)
+
+    lstm_out, hidden_state, cell_state = lstm(input_layer, initial_state=(hi, ci))
+
+    model = tf.keras.Model(inputs=[input_layer, hi, ci], outputs=[lstm_out, hidden_state, cell_state])
+    return model
+
+```
+
+
+Finally, the code that will give you the desired derivative is the following
+
+```python
+import numpy as np
+import tensorflow as tf
+
+np.random.seed(42)
+tf.random.set_seed(42)
+
+input_dim = 2
+time_steps = 4
+batch_size = 1
+units = 100
+
+batch = tf.random.normal((batch_size, time_steps, input_dim))
+h0 = tf.random.normal((batch_size, units))
+c0 = tf.random.normal((batch_size, units))
+
+ht, ct = h0, c0
+
+for t in range(time_steps):
+    print(t, '-' * 30)
+    bt = batch[:, t, :][:, None]
+    with tf.GradientTape() as tape:
+        tape.watch(bt)
+        tape.watch(ht)
+        tape.watch(ct)
+        model = build_model()
+        otp1, htp1, ctp1 = model([bt, ht, ct])
+
+    grad = tape.batch_jacobian(htp1, ht, )
+
+    ht, ct = htp1, ctp1
+
+    print(np.var(grad)*units)
+
+```
+
+The output of that last print is $0.5$, which is exactly what we would expect from a Glorot initialization 
+of a ReLU architecture, which is the mathematical check that I mentioned above.
 If you can figure out a better way to do it, let me know, it would be very interesting!
 
 
