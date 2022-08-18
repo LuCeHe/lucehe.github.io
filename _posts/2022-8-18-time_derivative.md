@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorBoard for Grads and Individual Weights
+title: Take a Derivative wrt the Moon
 published: true
 comments: true
 ---
@@ -16,7 +16,8 @@ $$
 
 I couldn't find anybody's code, and it's kind of tricky, so I thought I could post it here in case 
 anybody else needs it. It would be very cool if tensorflow and pytorch had an built in way to ask for any derivative
-of any tensor wrt to any other. I start off defining a custom RNN, for the sake of making it simple and easy to check
+of any tensor wrt to any other, but it seems much easier to get the derivative wrt a parameter
+than wrt a tensor representation. I start off by defining a custom RNN, for the sake of making it simple and easy to check
 mathematically at the end that I'm getting what I want to get. The mathematical definition of my custom RNN
 is
 
