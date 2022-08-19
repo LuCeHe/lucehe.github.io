@@ -47,6 +47,7 @@ class customRNN(tf.keras.layers.Layer):
 
         self.activation_rec = tf.nn.relu
         # self.activation_rec = tf.nn.sigmoid
+        # self.activation_rec = lambda x: x
         self.activation_in = tf.nn.sigmoid
 
         self.state_size = [num_neurons, num_neurons]
@@ -58,7 +59,6 @@ class customRNN(tf.keras.layers.Layer):
         old_h, old_c = states
 
         h = self.linear_rec(self.activation_rec(old_h))
-        # print(h, old_h)
         c = old_c - old_h + h
 
         output = self.activation_in(self.linear_in(inputs) + c)
