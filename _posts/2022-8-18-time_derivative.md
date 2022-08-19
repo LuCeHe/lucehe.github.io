@@ -57,7 +57,7 @@ class customRNN(tf.keras.layers.Layer):
     def call(self, inputs, states, training=None):
         old_h, old_c = states
 
-        h = self.activation_rec(self.linear_rec(old_h))
+        h = self.linear_rec(self.activation_rec(old_h))
         # print(h, old_h)
         c = old_c - old_h + h
 
@@ -128,8 +128,11 @@ for t in range(time_steps):
 ```
 
 The output of that last print is $0.5$, which is exactly what we would expect from a Glorot initialization 
-of a ReLU architecture, which is the mathematical check that I mentioned above.
-If you can figure out a better way to do it, let me know, it would be very interesting!
+of a ReLU architecture, which is the mathematical check that I mentioned above. As well it prints $1.0$ if
+we make the change from a ReLU to a linear activation, which is expected ffrom a Glorot initialization of
+a linear architecture.
+
+If you can figure out a better way to calculate these derivatives, let me know, it would be very interesting!
 
 
 {% if page.comments %} 
