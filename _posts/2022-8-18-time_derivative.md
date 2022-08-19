@@ -127,9 +127,9 @@ for t in range(time_steps):
 
 ```
 
-The output of that last print is $0.5$, which is exactly what we would expect from a Glorot initialization 
+The output of that last print is $0.5$, which is exactly what we would expect for a Glorot initialization 
 of a ReLU architecture, which is the mathematical check that I mentioned above. As well it prints $1.0$ if
-we make the change from a ReLU to a linear activation, which is expected ffrom a Glorot initialization of
+we make the change from a ReLU to a linear activation, which is expected for a Glorot initialization of
 a linear architecture.
 
 If you can figure out a better way to calculate these derivatives, let me know, it would be very interesting!
