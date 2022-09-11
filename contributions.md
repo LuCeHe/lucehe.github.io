@@ -6,9 +6,6 @@ permalink: /publications/
 
 ## Articles
 
-
-
-
 <tr>
 <td valign="middle" width="760"><p><font color="Peru">End-to-end brain-driven speech enhancement in multi-talker conditions</font><br>
 Maryam Hosseini, <strong>Luca Celotti</strong>, Éric Plourde <br>
