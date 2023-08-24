@@ -6,9 +6,14 @@ permalink: /about/
 
 ### More Information!
 
-After a journey that took me from Physics to Biophysics, Computational Neuroscience and finally Machine Learning, I found a new puzzle to solve in between Human Language and Deep Learning.
+After a journey that took me from Physics to Biophysics, Computational Neuroscience and finally 
+Machine Learning, I found a new puzzle to solve in between Human Language and Deep Learning.
 
-For my PhD I'm working to make robots able to acquire language during dialogue with humans. My main focus is on detecting new language and new sensory input, to link them together so the robot knows how the word "chair" looks like, and to improve sample efficiency of RL approaches, with what could be thought of as a creativity criterion, to deal with the exploration-exploitation dilemma in a principled way.
+I'm going to give a try at a Research Mission, and I want to keep it bombastic, to have 
+an attractive vision to push me to achieve it.
+I want to mathematically describe cognition and come up with mathematical theories that can predict 
+architecture quality before training. Somehow, I will use it to solve all the diseases.
+
 
 ### Contact me
 
