@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy for *Ge'em*
+title: Privacy Policy for Ge'em
 permalink: /privacy/
 ---
 
