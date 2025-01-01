@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Privacy
+title: Privacy Policy for *Ge'em*
 permalink: /privacy/
 ---
 
-
-# Privacy Policy for *Ge'em*
 
 **Effective Date:** 01/01/2025
 
