@@ -5,7 +5,7 @@ published: true
 comments: true
 ---
 
-There's something missing in Neural ODEs. Let me know if I convinced you.
+There's something missing in Neural ODEs. Let me try to convince you.
 If we use the standard Neural ODE for a linear map we have
 
 $$
