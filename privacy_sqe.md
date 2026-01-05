@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Privacy Policy for Ge'em
-permalink: /privacy/
+title: Privacy Policy for SQE Mastery
+permalink: /privacy_sqe/
 ---
 
-Privacy Policy for SQE Mastery
 
 **Effective Date: 01/01/2026**
 
