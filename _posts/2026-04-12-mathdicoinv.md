@@ -16,8 +16,8 @@ Some Physicists are surprised by the fact that Maths describes so well nature. B
 Maths are language, and we use all the time language to describe approximately everything that happens, and very successfully. 
 In the same way, we develop Maths independently from Physics, most of Maths is not useful to describe nature, but some of its
 words can be used to describe approximately nature. Every Physics model is approximate, it can become very 
-precise, but it's ultimately incomplete. Also the exact Maths that describe precisely the world take centuries to develop, and
-are a minuscule subset of all Maths.
+precise, but it's ultimately incomplete. Also the exact Maths that describe precisely the world take centuries to develop, so
+it's not easy to find those words.
 
 I suppose these are the answers of a Physics/Maths trained fella that is
  also Computational/AI trained. All human knowledge can be seen as an approximate, probabilistic
