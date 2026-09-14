@@ -5,82 +5,96 @@ published: true
 comments: true
 ---
 
-English spelling is a historical accident that we keep teaching as if it were a
-language. It is not. It is a pile of etymologies, fashion, and frozen
-pronunciations. Kids spend years learning that *one* does not start with *w*,
-that *colonel* is *kernel*, and that *ough* is a random number generator.
-The honest starting point is not "how it used to be written". It is phonetic
-transcription: write the sounds.
+English writing is hard to learn because the letters often do not match the
+sounds. *One* starts with a *w* sound, but we do not write *w*. *Colonel*
+sounds like *kernel*. The letters *ough* are not one sound: they change from
+word to word, as in *though*, *tough*, *cough*, *plough*, and *through*.
 
-IPA already does that, but it asks you to leave the Latin alphabet. Most people
-will not. We do not need to. Latin letters plus a few accents are enough.
+A better way is to start from the sounds, and write those. This is called
+phonetic transcription.
 
-Hungarian already solved this. Five vowel letters, and marks that mean something
-stable: none, one dot, two dots, one accent, two accents.
+The International Phonetic Alphabet already does this, but it uses many new
+symbols. Most people want to keep the normal Latin letters: *a, e, i, o, u*,
+and the usual consonants. We can keep them, and add small marks on the vowels.
 
-- none: a e i o u
+Hungarian already does this. It has five vowel letters, and a few kinds of
+marks:
+
+- no mark: a e i o u
 - one dot: ȧ ė ị ȯ ụ
 - two dots: ä ë ï ö ü
 - one accent: á é í ó ú
 - two accents: a̋ e̋ i̋ ő ű
 
-Five letters times five hats is twenty-five vocalic symbols. That used to look
-greedy. Schoolbook English has "about thirteen vowels", and then three hats
-already give you fifteen, so one dot and two accents look like Hungarian extras
-we could drop. *ő* and *ű* exist because Hungarian *ö* and *ü* can be long.
-Lowercase *i* already wears a tittle, so the overdot is ugly. Fifteen also
-happens to be the boring Latin set that keyboards already have.
+Five letters times five kinds of marks is 25 vowel signs. That is enough, and
+we need that many.
 
-Then you count properly. [English phonology](https://en.wikipedia.org/wiki/English_phonology)
-does not give you thirteen. In the system on that page there are 20–25 vowel
-phonemes in Received Pronunciation, 14–16 in General American and 19–21 in
-Australian English. The spread is mostly diphthongs, and whether *near*,
-*square* and *cure* are vowels of their own or just *i, e, u* plus an *r*.
+People sometimes say English has about 13 vowel sounds. Then you might think
+three kinds of marks are enough, because 5 times 3 is 15. The extra marks (one
+dot, and two accents) would be unused.
 
-Three hats is a General American trick. Fifteen cells sit right on top of
-14–16. Australian already spills over. RP walks through the ceiling. Four hats
-would kiss the RP floor of twenty and miss the twenty-five. So yes: if you want
-one letter per phoneme, and you want a page that still works in London, you need
-all five hats. Twenty-five is not a luxury grid. It is the RP high count.
+But 13 is too small. On [this page about English sounds](https://en.wikipedia.org/wiki/English_phonology)
+there are 20–25 vowel sounds in British Received Pronunciation, 14–16 in
+General American, and 19–21 in Australian English. The extra sounds are often
+two vowels said as one, like the sound in *night*, or a vowel plus *r*, like
+the sound in *here*.
 
-You can still cheat. Write *night, now, boy, here* as *nait, nau, noi, iė* and
-you are back in a biphonemic analysis, two sounds, two letters. Wikipedia lists
-that option too. It is honest. It is also not "one vocalic phoneme, one glyph",
-which was the whole point of starting from phonetic transcription. For that
-job, FACE, PRICE, CHOICE, GOAT, MOUTH, NEAR, SQUARE, CURE are eight extra
-symbols, not eight spelling accidents.
+So 15 signs are only enough for some American English. They are not enough for
+Australian English. They are not enough for British Received Pronunciation.
+Four kinds of marks would give 20 signs, which is the low British number, not
+the high one. If we want one sign for each vowel sound, and we want to cover
+British English too, we need all five kinds of marks. 25 signs match the high
+British number.
 
-A working RP-sized subset. Spare cells stay spare; Australian can have them for
-*bad* versus *lad*.
+You could write some sounds with two letters, like *ai* in *night*. That is
+fine, but then one sound is not one letter. The point here is: one vowel sound,
+one letter.
 
-| set | as in | write |
-| --- | --- | --- |
-| STRUT | but, blood | a |
-| PALM | father, yacht | á |
-| TRAP | cat | ä |
-| PRICE | night, I | ȧ |
-| MOUTH | now, plough | a̋ |
-| DRESS | bed, said | e |
-| FACE | day, eight | é |
-| COMMA | the, about | ė |
-| NURSE | bird, colonel | ë |
-| SQUARE | hair, bear | e̋ |
-| KIT | bit, women | i |
-| FLEECE | see, eat | í |
-| NEAR | here, beer | ï |
-| LOT | cot, knowledge | o |
-| GOAT | go, though | ó |
-| THOUGHT | thought, four | ö |
-| CHOICE | boy, noise | ő |
-| FOOT | book, woman | u |
-| GOOSE | too, two, queue | ú |
-| CURE | sure, tour | ü |
+Here is one way to use the signs. We do not need every sign in every accent.
+Empty signs can be used later, for example for the two different *a* sounds
+that some Australian speakers have in *bad* and *lad*.
 
-Consonants are the easy part anyway: drop the silent letters, write *k* when it
-is *k*, keep *th, sh, ch, ng*. No need to invent runes.
+<table style="margin-left:auto;margin-right:auto;border-collapse:separate;border-spacing:2.5em 0.45em;text-align:left;">
+  <thead>
+    <tr>
+      <th style="padding:0.4em 1.2em;text-align:left;">these words</th>
+      <th style="padding:0.4em 1.2em;text-align:left;">we write</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding:0.25em 1.2em;">but, blood</td><td style="padding:0.25em 1.2em;">a</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">father, yacht</td><td style="padding:0.25em 1.2em;">á</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">cat</td><td style="padding:0.25em 1.2em;">ä</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">night, I</td><td style="padding:0.25em 1.2em;">ȧ</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">now, plough</td><td style="padding:0.25em 1.2em;">a̋</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">bed, said</td><td style="padding:0.25em 1.2em;">e</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">day, eight</td><td style="padding:0.25em 1.2em;">é</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">the, about</td><td style="padding:0.25em 1.2em;">ė</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">bird, colonel</td><td style="padding:0.25em 1.2em;">ë</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">hair, bear</td><td style="padding:0.25em 1.2em;">e̋</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">bit, women</td><td style="padding:0.25em 1.2em;">i</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">see, eat</td><td style="padding:0.25em 1.2em;">í</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">here, beer</td><td style="padding:0.25em 1.2em;">ï</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">cot, knowledge</td><td style="padding:0.25em 1.2em;">o</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">go, though</td><td style="padding:0.25em 1.2em;">ó</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">thought, four</td><td style="padding:0.25em 1.2em;">ö</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">boy, noise</td><td style="padding:0.25em 1.2em;">ő</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">book, woman</td><td style="padding:0.25em 1.2em;">u</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">too, two, queue</td><td style="padding:0.25em 1.2em;">ú</td></tr>
+    <tr><td style="padding:0.25em 1.2em;">sure, tour</td><td style="padding:0.25em 1.2em;">ü</td></tr>
+  </tbody>
+</table>
 
-Once you do this, the famous jokes become ordinary words, and the ordinary words
-become readable.
+If you hear an *r*, write an *r*. Do not hide it inside the vowel. *Sure* is
+*shür*, not *shü*. *Here* is *hïr*. *Hair* is *he̋r*. *Car* is *kár*. Some
+British speakers do not say that *r*. They can leave it out. That is their
+accent. It is also one reason American English is listed with fewer vowel
+sounds: it still writes and says the *r*.
+
+Consonants are easier. Do not write silent letters. If the sound is *k*, write
+*k*. We can keep *th*, *sh*, *ch*, and *ng*.
+
+Then hard words become easy to read.
 
 *Though the tough cough and hiccough plough him through*
 
@@ -88,42 +102,46 @@ becomes
 
 *thó thė taf köf ėnd hikap pla̋ him thrú*
 
-Same family of letters on the page, seven different vowels, no crossword.
+Those words look alike in normal English. Here they have seven different
+vowels, because they have seven different sounds.
 
-A few I like:
+More examples:
 
-- *colonel* → *kënėl* (it was *kernel* all along)
-- *queue* → *kjú* (four letters were unemployed)
+- *colonel* → *kërnel*
+- *queue* → *kjú*
 - *women* / *woman* → *wimin* / *wumėn*
 - *one, two, eight, four* → *wan, tú, ét, för*
-- *knight* → *nȧt* (and *night* is the same word, which it is)
-- *choir* → *kwȧė*
+- *knight* → *nȧt* (same as *night*)
+- *choir* → *kwȧėr*
 - *yacht* → *yát*
-- *Leicester* → *lestė*
+- *Leicester* → *lestër*
 - *beautiful* → *bjútifėl*
 - *knowledge* → *nolij*
 - *I owe you* → *ȧ ó yú*
-- *here / hair / sure* → *hï / he̋ / shü*
-- *cot / caught / cart* → *kot / köt / kát*
+- *here / hair / sure* → *hïr / he̋r / shür*
+- *cot / caught / cart* → *kot / köt / kárt*
 
-And the sentence they use to teach that English "long A" is one sound:
+This sentence is used to show that *rain*, *Spain*, *stays*, *mainly*, and
+*plain* all have the same vowel:
 
 *The rain in Spain stays mainly in the plain*
 → *thė rén in spén stéz ménli in thė plén*
 
-You can see it. That is the whole point.
+You can see the same mark on each of those words.
 
-Shaw's *ghoti* for *fish* dies instantly. Good. If your writing system lets
-*gh-o-ti* spell *fish*, you do not have a writing system, you have folklore.
+People joke that *ghoti* could spell *fish*, if *gh* is like *enough*, *o* is
+like *women*, and *ti* is like *nation*. In this writing, *fish* is just
+*fish*. That joke only works when letters do not mean one sound.
 
-Would it be annoying to type, would dialects fight over *ö* versus *á*, would
-etymologists complain. Yes. They already complain, and children already pay the
-cost. Twenty-five slots, twenty to twenty-five RP sounds. General American can
-leave cells empty. It is not a lack of symbols. It is a lack of willingness to
-start from the sounds.
+This would take time to type. Different accents would not pick the same marks
+for every word. People who like old spellings would not like it. Children
+already spend years on the old spellings. We have 25 signs, and British English
+has 20 to 25 vowel sounds. We do not lack signs. We lack a writing system that
+starts from the sounds.
 
-What do you think? Would you read English like this? *ị ȯ ụ i̋ ű* are still
-free, which is exactly the slack between 20 and 25.
+What do you think? Would you read English like this? Some signs are still free,
+like *ị ȯ ụ i̋ ű*. That gap is for the difference between 20 and 25 vowel
+sounds.
 Please comment below.
 
 
