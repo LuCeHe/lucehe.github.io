@@ -16,48 +16,68 @@ IPA already does that, but it asks you to leave the Latin alphabet. Most people
 will not. We do not need to. Latin letters plus a few accents are enough.
 
 Hungarian already solved this. Five vowel letters, and marks that mean something
-stable. The full Hungarian kit also has two accents, the double acute on *ő* and
-*ű*, because *ö* and *ü* can be long. English does not need that axis. It also
-does not need a fifth mark, one dot: lowercase *i* already wears a tittle, and
-the extra cells are empty anyway.
-
-Keep three types of hat: none, one accent, two dots.
+stable: none, one dot, two dots, one accent, two accents.
 
 - none: a e i o u
-- one accent: á é í ó ú
+- one dot: ȧ ė ị ȯ ụ
 - two dots: ä ë ï ö ü
+- one accent: á é í ó ú
+- two accents: a̋ e̋ i̋ ő ű
 
-Five letters times three hats is fifteen vocalic symbols. English has about
-thirteen vowel sounds, give or take the dialect and whether you count diphthongs
-as one sound or two. Fifteen is already more than enough. Two cells left over.
-Leave them empty, or keep them for a dialect that insists on *lot* versus
-*thought*.
+Five letters times five hats is twenty-five vocalic symbols. That used to look
+greedy. Schoolbook English has "about thirteen vowels", and then three hats
+already give you fifteen, so one dot and two accents look like Hungarian extras
+we could drop. *ő* and *ű* exist because Hungarian *ö* and *ü* can be long.
+Lowercase *i* already wears a tittle, so the overdot is ugly. Fifteen also
+happens to be the boring Latin set that keyboards already have.
 
-Those fifteen are also the boring Latin letters that fonts and keyboards already
-have. *ő ű ė ȧ* are how you show off. *ä ö ü á é* is how you write.
+Then you count properly. [English phonology](https://en.wikipedia.org/wiki/English_phonology)
+does not give you thirteen. In the system on that page there are 20–25 vowel
+phonemes in Received Pronunciation, 14–16 in General American and 19–21 in
+Australian English. The spread is mostly diphthongs, and whether *near*,
+*square* and *cure* are vowels of their own or just *i, e, u* plus an *r*.
 
-A working English subset:
+Three hats is a General American trick. Fifteen cells sit right on top of
+14–16. Australian already spills over. RP walks through the ceiling. Four hats
+would kiss the RP floor of twenty and miss the twenty-five. So yes: if you want
+one letter per phoneme, and you want a page that still works in London, you need
+all five hats. Twenty-five is not a luxury grid. It is the RP high count.
 
-| sound | as in | write |
+You can still cheat. Write *night, now, boy, here* as *nait, nau, noi, iė* and
+you are back in a biphonemic analysis, two sounds, two letters. Wikipedia lists
+that option too. It is honest. It is also not "one vocalic phoneme, one glyph",
+which was the whole point of starting from phonetic transcription. For that
+job, FACE, PRICE, CHOICE, GOAT, MOUTH, NEAR, SQUARE, CURE are eight extra
+symbols, not eight spelling accidents.
+
+A working RP-sized subset. Spare cells stay spare; Australian can have them for
+*bad* versus *lad*.
+
+| set | as in | write |
 | --- | --- | --- |
-| /ʌ/ | but, blood | a |
-| /ɑ/ | father, yacht | á |
-| /æ/ | cat | ä |
-| /ə/, /ɜ/ | the, about, bird | ë |
-| /ɛ/ | bed, said, friend | e |
-| /eɪ/ | day, eight | é |
-| /ɪ/ | bit, women | i |
-| /i/ | see, eat | í |
-| /ɔ/ | thought, four | ö |
-| /oʊ/ | go, though | ó |
-| /ʊ/ | book, woman | u |
-| /u/ | too, two, queue | ú |
+| STRUT | but, blood | a |
+| PALM | father, yacht | á |
+| TRAP | cat | ä |
+| PRICE | night, I | ȧ |
+| MOUTH | now, plough | a̋ |
+| DRESS | bed, said | e |
+| FACE | day, eight | é |
+| COMMA | the, about | ė |
+| NURSE | bird, colonel | ë |
+| SQUARE | hair, bear | e̋ |
+| KIT | bit, women | i |
+| FLEECE | see, eat | í |
+| NEAR | here, beer | ï |
+| LOT | cot, knowledge | o |
+| GOAT | go, though | ó |
+| THOUGHT | thought, four | ö |
+| CHOICE | boy, noise | ő |
+| FOOT | book, woman | u |
+| GOOSE | too, two, queue | ú |
+| CURE | sure, tour | ü |
 
-The leftover diphthongs can stay as two letters, which is also honest: *ai* in
-*night*, *au* in *now*, *oi* in *boy*. Hungarian is happy with digraphs for
-consonants. We can be happy with them for the few gliding vowels. Consonants
-are the easy part anyway: drop the silent letters, write *k* when it is *k*,
-keep *th, sh, ch, ng*. No need to invent runes.
+Consonants are the easy part anyway: drop the silent letters, write *k* when it
+is *k*, keep *th, sh, ch, ng*. No need to invent runes.
 
 Once you do this, the famous jokes become ordinary words, and the ordinary words
 become readable.
@@ -66,28 +86,30 @@ become readable.
 
 becomes
 
-*thó thë taf köf ënd hikap plau him thrú*
+*thó thė taf köf ėnd hikap pla̋ him thrú*
 
-Same family of letters on the page, six different vowels, no crossword.
+Same family of letters on the page, seven different vowels, no crossword.
 
 A few I like:
 
-- *colonel* → *kërnel* (it was *kernel* all along)
+- *colonel* → *kënėl* (it was *kernel* all along)
 - *queue* → *kjú* (four letters were unemployed)
-- *women* / *woman* → *wimin* / *wumën*
+- *women* / *woman* → *wimin* / *wumėn*
 - *one, two, eight, four* → *wan, tú, ét, för*
-- *knight* → *nait* (and *night* is the same word, which it is)
-- *choir* → *kwaiër*
+- *knight* → *nȧt* (and *night* is the same word, which it is)
+- *choir* → *kwȧė*
 - *yacht* → *yát*
-- *Leicester* → *lestër*
-- *beautiful* → *bjútifël*
-- *knowledge* → *nálij*
-- *I owe you* → *ai ó yú*
+- *Leicester* → *lestė*
+- *beautiful* → *bjútifėl*
+- *knowledge* → *nolij*
+- *I owe you* → *ȧ ó yú*
+- *here / hair / sure* → *hï / he̋ / shü*
+- *cot / caught / cart* → *kot / köt / kát*
 
 And the sentence they use to teach that English "long A" is one sound:
 
 *The rain in Spain stays mainly in the plain*
-→ *thë rén in spén stéz ménli in thë plén*
+→ *thė rén in spén stéz ménli in thė plén*
 
 You can see it. That is the whole point.
 
@@ -96,10 +118,12 @@ Shaw's *ghoti* for *fish* dies instantly. Good. If your writing system lets
 
 Would it be annoying to type, would dialects fight over *ö* versus *á*, would
 etymologists complain. Yes. They already complain, and children already pay the
-cost. Fifteen slots, thirteen sounds, Latin letters, no fancy dots. It is not a
-lack of symbols. It is a lack of willingness to start from the sounds.
+cost. Twenty-five slots, twenty to twenty-five RP sounds. General American can
+leave cells empty. It is not a lack of symbols. It is a lack of willingness to
+start from the sounds.
 
-What do you think? Would you read English like this? *ï* and *ü* are still free.
+What do you think? Would you read English like this? *ị ȯ ụ i̋ ű* are still
+free, which is exactly the slack between 20 and 25.
 Please comment below.
 
 
