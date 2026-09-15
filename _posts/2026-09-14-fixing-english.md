@@ -5,6 +5,8 @@ published: true
 comments: true
 ---
 
+## Why English writing is hard
+
 English writing is hard to learn because the letters often do not match the
 sounds. *One* starts with a *w* sound, but we do not write *w*. *Colonel*
 sounds like *kernel*. The letters *ough* are not one sound: they change from
@@ -30,6 +32,8 @@ The extra time is not because English children are slower. It is because English
 letters do not keep one sound
 ([Ziegler and Goswami, 2005](https://doi.org/10.1037/0033-2909.131.1.3)).
 
+## Start from the sounds
+
 A better way is to start from the sounds, and write those. This is called
 phonetic transcription.
 
@@ -38,45 +42,9 @@ symbols. People want the familiar letters they already use, without having to
 change the keyboard of their phones and laptops, and without having to learn a
 new alphabet.
 
-This problem is old, and there have been many attempts to fix English writing.
-They fall into a few groups, and each group falls short in a different way.
+We can keep those letters, and add small marks on the vowels.
 
-Some people changed only a few words. [Noah Webster](https://en.wikipedia.org/wiki/Noah_Webster#Spelling_reform)
-gave American English *color* and *center*. That is easier to print, but the
-vowels are still a mess. *One*, *colonel*, and *ough* did not get fixed.
-
-Some people invented a new alphabet.
-[Benjamin Franklin](https://en.wikipedia.org/wiki/Benjamin_Franklin%27s_phonetic_alphabet)
-did this in 1768. The [Deseret alphabet](https://en.wikipedia.org/wiki/Deseret_alphabet)
-did it in the 19th century. George Bernard Shaw left money for a new alphabet
-with at least 40 signs, not based on Latin letters. The result was the
-[Shavian alphabet](https://en.wikipedia.org/wiki/Shavian_alphabet). One book was
-printed in it, *Androcles and the Lion*, in 1962. Almost nobody used it. A new
-alphabet can match the sounds. People still have to leave the letters they
-already know.
-
-Some people kept Latin letters, but added extra shapes for school, then asked
-children to switch back. The
-[Initial Teaching Alphabet](https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet)
-was used in British and American schools in the 1960s. Children often learned
-to read faster at first. Then they had to learn ordinary English spelling as a
-second system. The extra letters were also hard to type. The method fell out of
-use.
-
-Some people kept the 26 letters and respelt words, like *thru* and *enuf*. The
-[Simplified Spelling Society](https://en.wikipedia.org/wiki/English-language_spelling_reform)
-worked on this for many years, for example in
-[New Spelling](https://en.wikipedia.org/wiki/English-language_spelling_reform#New_Spelling).
-[Cut Spelling](https://en.wikipedia.org/wiki/Cut_Spelling) only drops spare
-letters, so *accommodation* becomes *acomodation*. These look more like English,
-but 26 letters are not enough for 20 to 25 vowel sounds. The extra sounds then
-need piles of two-letter and three-letter groups, so the exceptions come back
-in a new form.
-
-So the old attempts miss at least one of these: they leave the Latin alphabet,
-they do not have enough vowel signs, they change too little, or they make
-children learn two systems. We can keep Latin letters, and add small marks on
-the vowels.
+## The DoAc system
 
 Hungarian already does this. It has five vowel letters, and a few kinds of
 marks:
@@ -90,6 +58,7 @@ marks:
 I will call this the **DoAc** system, short for dots and accents. Five letters
 times five kinds of marks is 25 vowel signs. That is enough.
 
+## How many vowel sounds
 
 But how many sounds does English have? Well, it gets tricky. On [this page about English sounds](https://en.wikipedia.org/wiki/English_phonology)
 there are 20–25 vowel sounds in British Received Pronunciation, 14–16 in
@@ -98,9 +67,10 @@ are two vowels said one after the other, like the sound in *night*. Some are a
 vowel plus *r*, like the sound in *here*.
 
 If we want one sign for each simple vowel, and we want to cover British English
-too, we need the full set of marks. For simplicity, we think that when you hear two vowels, you should write two letters.
-*Night* is *nait*, not one special letter. The 25 signs are for the simple
-vowels. The two-vowel sounds are just two of those signs in a row.
+too, we need the full set of marks. For simplicity, we think that when you hear
+two vowels, you should write two letters. *Night* is *nait*, not one special
+letter. The 25 signs are for the simple vowels. The two-vowel sounds are just
+two of those signs in a row.
 
 Linguists already have names for these vowel families. Each family is called by
 one example word in capital letters, from
@@ -108,6 +78,8 @@ one example word in capital letters, from
 STRUT is the family of *but* and *blood*. PALM is the family of *father* and
 *yacht*. TRAP is the family of *cat*. Those names are well known, so I keep
 them here.
+
+## A mapping
 
 Here is one way to use DoAc. Empty signs can be used later, for example for the
 two different *a* sounds that some Australian speakers have in *bad* and *lad*.
@@ -154,40 +126,36 @@ sounds: it still writes and says the *r*.
 Consonants are easier. Do not write silent letters. If the sound is *k*, write
 *k*. We can keep *th*, *sh*, *ch*, and *ng*.
 
+## Examples
+
 Then hard words become easy to read.
 
 <div style="text-align:center; margin: 1.2em 0;">
-<p><em>Though the tough cough and hiccough plough him through</em></p>
+<p><em>The rain in Spain stays mainly in the plain</em></p>
 <p>becomes</p>
-<p><em>thou thė taf köf ėnd hikap plau him thrú</em></p>
+<p><em>thė rein in spein steiz meinli in thė plein</em></p>
 </div>
 
-Those words look alike in normal English. Here they have different vowels,
-because they have different sounds.
+You can see the same two letters, *ei*, in *rain*, *Spain*, *stays*, *mainly*,
+and *plain*.
 
 More examples:
 
-- *colonel* → *kërnel*
-- *queue* → *kjú*
-- *women* / *woman* → *wimin* / *wumėn*
-- *one, two, eight, four* → *wan, tú, eit, för*
-- *knight* → *nait* (same as *night*)
-- *choir* → *kwaiėr*
-- *yacht* → *yát*
-- *Leicester* → *lestër*
-- *beautiful* → *bjútifėl*
-- *knowledge* → *nolij*
-- *I owe you* → *ai ou yú*
-- *here / hair / sure* → *hïr / he̋r / shür*
-- *cot / caught / cart* → *kot / köt / kárt*
-
-This sentence is used to show that *rain*, *Spain*, *stays*, *mainly*, and
-*plain* all have the same vowel:
-
-*The rain in Spain stays mainly in the plain*
-→ *thė rein in spein steiz meinli in thė plein*
-
-You can see the same two letters, *ei*, in each of those words.
+<div style="text-align:center; margin: 1.2em 0;">
+<p><em>colonel</em> → <em>kërnel</em></p>
+<p><em>queue</em> → <em>kjú</em></p>
+<p><em>women</em> / <em>woman</em> → <em>wimin</em> / <em>wumėn</em></p>
+<p><em>one, two, eight, four</em> → <em>wan, tú, eit, för</em></p>
+<p><em>knight</em> → <em>nait</em> (same as <em>night</em>)</p>
+<p><em>choir</em> → <em>kwaiėr</em></p>
+<p><em>yacht</em> → <em>yát</em></p>
+<p><em>Leicester</em> → <em>lestër</em></p>
+<p><em>beautiful</em> → <em>bjútifėl</em></p>
+<p><em>knowledge</em> → <em>nolij</em></p>
+<p><em>I owe you</em> → <em>ai ou yú</em></p>
+<p><em>here / hair / sure</em> → <em>hïr / he̋r / shür</em></p>
+<p><em>cot / caught / cart</em> → <em>kot / köt / kárt</em></p>
+</div>
 
 There is an old joke that *fish* could be written *ghoti*. The joke takes the
 *gh* sound from *enough* (that *gh* is an *f* sound), the *o* sound from
@@ -202,6 +170,48 @@ for every word. People who like old spellings would not like it. Children
 already spend years on the old spellings. We have 25 signs, and British English
 has 20 to 25 vowel sounds. We do not lack signs. We lack a writing system that
 starts from the sounds.
+
+## Earlier attempts
+
+This problem is old, and there have been many attempts to fix English writing.
+They fall into a few groups, and each group falls short in a different way.
+
+Some people changed only a few words. [Noah Webster](https://en.wikipedia.org/wiki/Noah_Webster#Spelling_reform)
+gave American English *color* and *center*. That is easier to print, but the
+vowels are still a mess. *One*, *colonel*, and *ough* did not get fixed.
+
+Some people invented a new alphabet.
+[Benjamin Franklin](https://en.wikipedia.org/wiki/Benjamin_Franklin%27s_phonetic_alphabet)
+did this in 1768. The [Deseret alphabet](https://en.wikipedia.org/wiki/Deseret_alphabet)
+did it in the 19th century. George Bernard Shaw left money for a new alphabet
+with at least 40 signs, not based on Latin letters. The result was the
+[Shavian alphabet](https://en.wikipedia.org/wiki/Shavian_alphabet). One book was
+printed in it, *Androcles and the Lion*, in 1962. Almost nobody used it. A new
+alphabet can match the sounds. People still have to leave the letters they
+already know.
+
+Some people kept Latin letters, but added extra shapes for school, then asked
+children to switch back. The
+[Initial Teaching Alphabet](https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet)
+was used in British and American schools in the 1960s. Children often learned
+to read faster at first. Then they had to learn ordinary English spelling as a
+second system. The extra letters were also hard to type. The method fell out of
+use.
+
+Some people kept the 26 letters and respelt words, like *thru* and *enuf*. The
+[Simplified Spelling Society](https://en.wikipedia.org/wiki/English-language_spelling_reform)
+worked on this for many years, for example in
+[New Spelling](https://en.wikipedia.org/wiki/English-language_spelling_reform#New_Spelling).
+[Cut Spelling](https://en.wikipedia.org/wiki/Cut_Spelling) only drops spare
+letters, so *accommodation* becomes *acomodation*. These look more like English,
+but 26 letters are not enough for 20 to 25 vowel sounds. The extra sounds then
+need piles of two-letter and three-letter groups, so the exceptions come back
+in a new form.
+
+So the old attempts miss at least one of these: they leave the Latin alphabet,
+they do not have enough vowel signs, they change too little, or they make
+children learn two systems. DoAc keeps the familiar letters, adds marks so
+there are enough vowel signs, and is one system, not two.
 
 What do you think? Would you read English in DoAc? Some signs are still free,
 like *ị ȯ ụ i̋ ű*. That gap is for the difference between 20 and 25 vowel
