@@ -131,6 +131,15 @@ Consonants are easier. Do not write silent letters. If the sound is *k*, write
 Then hard words become easy to read.
 
 <div style="text-align:center; margin: 1.2em 0;">
+<p><em>Though the tough cough and hiccough plough him through</em></p>
+<p>becomes</p>
+<p><em>thou thė taf köf ėnd hikap plau him thrú</em></p>
+</div>
+
+Those words look alike in normal English. Here they have different vowels,
+because they have different sounds.
+
+<div style="text-align:center; margin: 1.2em 0;">
 <p><em>The rain in Spain stays mainly in the plain</em></p>
 <p>becomes</p>
 <p><em>thė rein in spein steiz meinli in thė plein</em></p>
