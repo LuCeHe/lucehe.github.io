@@ -34,8 +34,49 @@ A better way is to start from the sounds, and write those. This is called
 phonetic transcription.
 
 The International Phonetic Alphabet already does this, but it uses many new
-symbols. Most people want to keep the normal Latin letters: *a, e, i, o, u*,
-and the usual consonants. We can keep them, and add small marks on the vowels.
+symbols. People want the familiar letters they already use, without having to
+change the keyboard of their phones and laptops, and without having to learn a
+new alphabet.
+
+This problem is old, and there have been many attempts to fix English writing.
+They fall into a few groups, and each group falls short in a different way.
+
+Some people changed only a few words. [Noah Webster](https://en.wikipedia.org/wiki/Noah_Webster#Spelling_reform)
+gave American English *color* and *center*. That is easier to print, but the
+vowels are still a mess. *One*, *colonel*, and *ough* did not get fixed.
+
+Some people invented a new alphabet.
+[Benjamin Franklin](https://en.wikipedia.org/wiki/Benjamin_Franklin%27s_phonetic_alphabet)
+did this in 1768. The [Deseret alphabet](https://en.wikipedia.org/wiki/Deseret_alphabet)
+did it in the 19th century. George Bernard Shaw left money for a new alphabet
+with at least 40 signs, not based on Latin letters. The result was the
+[Shavian alphabet](https://en.wikipedia.org/wiki/Shavian_alphabet). One book was
+printed in it, *Androcles and the Lion*, in 1962. Almost nobody used it. A new
+alphabet can match the sounds. People still have to leave the letters they
+already know.
+
+Some people kept Latin letters, but added extra shapes for school, then asked
+children to switch back. The
+[Initial Teaching Alphabet](https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet)
+was used in British and American schools in the 1960s. Children often learned
+to read faster at first. Then they had to learn ordinary English spelling as a
+second system. The extra letters were also hard to type. The method fell out of
+use.
+
+Some people kept the 26 letters and respelt words, like *thru* and *enuf*. The
+[Simplified Spelling Society](https://en.wikipedia.org/wiki/English-language_spelling_reform)
+worked on this for many years, for example in
+[New Spelling](https://en.wikipedia.org/wiki/English-language_spelling_reform#New_Spelling).
+[Cut Spelling](https://en.wikipedia.org/wiki/Cut_Spelling) only drops spare
+letters, so *accommodation* becomes *acomodation*. These look more like English,
+but 26 letters are not enough for 20 to 25 vowel sounds. The extra sounds then
+need piles of two-letter and three-letter groups, so the exceptions come back
+in a new form.
+
+So the old attempts miss at least one of these: they leave the Latin alphabet,
+they do not have enough vowel signs, they change too little, or they make
+children learn two systems. We can keep Latin letters, and add small marks on
+the vowels.
 
 Hungarian already does this. It has five vowel letters, and a few kinds of
 marks:
@@ -49,18 +90,15 @@ marks:
 I will call this the **DoAc** system, short for dots and accents. Five letters
 times five kinds of marks is 25 vowel signs. That is enough.
 
-People sometimes say English has about 13 vowel sounds. Then you might think
-three kinds of marks are enough, because 5 times 3 is 15. The extra marks (one
-dot, and two accents) would be unused.
 
-But 13 is too small. On [this page about English sounds](https://en.wikipedia.org/wiki/English_phonology)
+But how many sounds does English have? Well, it gets tricky. On [this page about English sounds](https://en.wikipedia.org/wiki/English_phonology)
 there are 20–25 vowel sounds in British Received Pronunciation, 14–16 in
 General American, and 19–21 in Australian English. Some of those extra sounds
 are two vowels said one after the other, like the sound in *night*. Some are a
 vowel plus *r*, like the sound in *here*.
 
 If we want one sign for each simple vowel, and we want to cover British English
-too, we need the full set of marks. When you hear two vowels, write two letters.
+too, we need the full set of marks. For simplicity, we think that when you hear two vowels, you should write two letters.
 *Night* is *nait*, not one special letter. The 25 signs are for the simple
 vowels. The two-vowel sounds are just two of those signs in a row.
 
@@ -118,11 +156,11 @@ Consonants are easier. Do not write silent letters. If the sound is *k*, write
 
 Then hard words become easy to read.
 
-*Though the tough cough and hiccough plough him through*
-
-becomes
-
-*thou thė taf köf ėnd hikap plau him thrú*
+<div style="text-align:center; margin: 1.2em 0;">
+<p><em>Though the tough cough and hiccough plough him through</em></p>
+<p>becomes</p>
+<p><em>thou thė taf köf ėnd hikap plau him thrú</em></p>
+</div>
 
 Those words look alike in normal English. Here they have different vowels,
 because they have different sounds.
@@ -151,9 +189,13 @@ This sentence is used to show that *rain*, *Spain*, *stays*, *mainly*, and
 
 You can see the same two letters, *ei*, in each of those words.
 
-People joke that *ghoti* could spell *fish*, if *gh* is like *enough*, *o* is
-like *women*, and *ti* is like *nation*. In DoAc, *fish* is just *fish*. That
-joke only works when letters do not mean one sound.
+There is an old joke that *fish* could be written *ghoti*. The joke takes the
+*gh* sound from *enough* (that *gh* is an *f* sound), the *o* sound from
+*women* (that *o* is an *i* sound), and the *ti* sound from *nation* (that *ti*
+is an *sh* sound). Put *f + i + sh* together, and you get *fish*. The joke
+works only because the same letters change sound from word to word. If each
+letter had one sound, *ghoti* could not mean *fish*. In DoAc, *fish* is written
+*fish*.
 
 This would take time to type. Different accents would not pick the same marks
 for every word. People who like old spellings would not like it. Children
