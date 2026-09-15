@@ -5,7 +5,6 @@ published: true
 comments: true
 ---
 
-## Why English writing is hard
 
 English writing is hard to learn because the letters often do not match the
 sounds. *One* starts with a *w* sound, but we do not write *w*. *Colonel*
@@ -13,24 +12,20 @@ sounds like *kernel*. The letters *ough* are not one sound: they change from
 word to word, as in *though*, *tough*, *cough*, *plough*, and *through*.
 
 This is not a small problem for children. Italian writing is close to
-one letter, one sound: about 33 letter groups for about 25 sounds
-([Lepschy and Lepschy, 1981](https://www.worldcat.org/title/italian-language-today/oclc/7732232)).
+one letter, one sound: about 33 letter groups for about 25 sounds [[1]](#ref1).
 English is full of exceptions: one count is about 1120 letter groups for about
-40 sounds ([Nyikos, 1988](https://www.worldcat.org/title/fourteenth-lacus-forum-1987/oclc/18924705)).
+40 sounds [[2]](#ref2).
 In a study of 13 European writing systems, children in regular systems such as
 Italian could read simple familiar words well before the end of the first
 school year (more than 95% correct). English children were at 34% in year 1.
-They needed more than twice as long to reach the same level
-([Seymour, Aro, and Erskine, 2003](https://doi.org/10.1348/000712603321661859)).
+They needed more than twice as long to reach the same level [[3]](#ref3).
 Another study found Italian children already reading about 94% of real words at
-the end of year 1
-([Cossu, Gugliotta, and Marshall, 1995](https://doi.org/10.1007/BF01026945)).
+the end of year 1 [[4]](#ref4).
 Spelling stays hard for longer too: Italian children were accurate after 2 years
 of school, while English children were still not accurate after 5 years
-([Marinelli, Romani, Burani, and Zoccolotti, 2015](https://doi.org/10.3389/fpsyg.2015.01843)).
+[[5]](#ref5).
 The extra time is not because English children are slower. It is because English
-letters do not keep one sound
-([Ziegler and Goswami, 2005](https://doi.org/10.1037/0033-2909.131.1.3)).
+letters do not keep one sound [[6]](#ref6).
 
 ## Start from the sounds
 
@@ -60,11 +55,11 @@ times five kinds of marks is 25 vowel signs. That is enough.
 
 ## How many vowel sounds
 
-But how many sounds does English have? Well, it gets tricky. On [this page about English sounds](https://en.wikipedia.org/wiki/English_phonology)
-there are 20–25 vowel sounds in British Received Pronunciation, 14–16 in
-General American, and 19–21 in Australian English. Some of those extra sounds
-are two vowels said one after the other, like the sound in *night*. Some are a
-vowel plus *r*, like the sound in *here*.
+But how many sounds does English have? Well, it gets tricky. On a standard
+account of English sounds [[7]](#ref7) there are 20–25 vowel sounds in British
+Received Pronunciation, 14–16 in General American, and 19–21 in Australian
+English. Some of those extra sounds are two vowels said one after the other,
+like the sound in *night*. Some are a vowel plus *r*, like the sound in *here*.
 
 If we want one sign for each simple vowel, and we want to cover British English
 too, we need the full set of marks. For simplicity, we think that when you hear
@@ -73,8 +68,7 @@ letter. The 25 signs are for the simple vowels. The two-vowel sounds are just
 two of those signs in a row.
 
 Linguists already have names for these vowel families. Each family is called by
-one example word in capital letters, from
-[Wells, 1982](https://en.wikipedia.org/wiki/Lexical_set).
+one example word in capital letters [[8]](#ref8).
 STRUT is the family of *but* and *blood*. PALM is the family of *father* and
 *yacht*. TRAP is the family of *cat*. Those names are well known, so I keep
 them here.
@@ -185,33 +179,28 @@ starts from the sounds.
 This problem is old, and there have been many attempts to fix English writing.
 They fall into a few groups, and each group falls short in a different way.
 
-Some people changed only a few words. [Noah Webster](https://en.wikipedia.org/wiki/Noah_Webster#Spelling_reform)
+Some people changed only a few words. Noah Webster [[9]](#ref9)
 gave American English *color* and *center*. That is easier to print, but the
 vowels are still a mess. *One*, *colonel*, and *ough* did not get fixed.
 
 Some people invented a new alphabet.
-[Benjamin Franklin](https://en.wikipedia.org/wiki/Benjamin_Franklin%27s_phonetic_alphabet)
-did this in 1768. The [Deseret alphabet](https://en.wikipedia.org/wiki/Deseret_alphabet)
-did it in the 19th century. George Bernard Shaw left money for a new alphabet
-with at least 40 signs, not based on Latin letters. The result was the
-[Shavian alphabet](https://en.wikipedia.org/wiki/Shavian_alphabet). One book was
-printed in it, *Androcles and the Lion*, in 1962. Almost nobody used it. A new
-alphabet can match the sounds. People still have to leave the letters they
-already know.
+Benjamin Franklin did this in 1768 [[10]](#ref10). The Deseret alphabet
+did it in the 19th century [[11]](#ref11). George Bernard Shaw left money for a
+new alphabet with at least 40 signs, not based on Latin letters. The result was
+the Shavian alphabet [[12]](#ref12). One book was printed in it, *Androcles and
+the Lion*, in 1962. Almost nobody used it. A new alphabet can match the sounds.
+People still have to leave the letters they already know.
 
 Some people kept Latin letters, but added extra shapes for school, then asked
-children to switch back. The
-[Initial Teaching Alphabet](https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet)
+children to switch back. The Initial Teaching Alphabet [[13]](#ref13)
 was used in British and American schools in the 1960s. Children often learned
 to read faster at first. Then they had to learn ordinary English spelling as a
 second system. The extra letters were also hard to type. The method fell out of
 use.
 
 Some people kept the 26 letters and respelt words, like *thru* and *enuf*. The
-[Simplified Spelling Society](https://en.wikipedia.org/wiki/English-language_spelling_reform)
-worked on this for many years, for example in
-[New Spelling](https://en.wikipedia.org/wiki/English-language_spelling_reform#New_Spelling).
-[Cut Spelling](https://en.wikipedia.org/wiki/Cut_Spelling) only drops spare
+Simplified Spelling Society worked on this for many years, for example in New
+Spelling [[14]](#ref14). Cut Spelling [[15]](#ref15) only drops spare
 letters, so *accommodation* becomes *acomodation*. These look more like English,
 but 26 letters are not enough for 20 to 25 vowel sounds. The extra sounds then
 need piles of two-letter and three-letter groups, so the exceptions come back
@@ -226,6 +215,24 @@ What do you think? Would you read English in DoAc? Some signs are still free,
 like *ị ȯ ụ i̋ ű*. That gap is for the difference between 20 and 25 vowel
 sounds.
 Please comment below.
+
+## References
+
+1. <span id="ref1"></span>A. L. Lepschy and G. Lepschy, *The Italian Language Today* (Hutchinson, 1981).
+2. <span id="ref2"></span>J. Nyikos, "A linguistic perspective of functional illiteracy," in *The Fourteenth LACUS Forum 1987* (Linguistic Association of Canada and the United States, 1988).
+3. <span id="ref3"></span>P. H. K. Seymour, M. Aro, and J. M. Erskine, "Foundation literacy acquisition in European orthographies," *British Journal of Psychology* 94, no. 2 (2003): 143–174. [doi:10.1348/000712603321661859](https://doi.org/10.1348/000712603321661859)
+4. <span id="ref4"></span>G. Cossu, M. Gugliotta, and J. C. Marshall, "Acquisition of reading and written spelling in a transparent orthography: Two non parallel processes?" *Reading and Writing* 7 (1995): 9–22. [doi:10.1007/BF01026945](https://doi.org/10.1007/BF01026945)
+5. <span id="ref5"></span>C. V. Marinelli, C. Romani, C. Burani, and P. Zoccolotti, "Spelling acquisition in English and Italian: A cross-linguistic study," *Frontiers in Psychology* 6 (2015): 1843. [doi:10.3389/fpsyg.2015.01843](https://doi.org/10.3389/fpsyg.2015.01843)
+6. <span id="ref6"></span>J. C. Ziegler and U. Goswami, "Reading acquisition, developmental dyslexia, and skilled reading across languages: A psycholinguistic grain size theory," *Psychological Bulletin* 131, no. 1 (2005): 3–29. [doi:10.1037/0033-2909.131.1.3](https://doi.org/10.1037/0033-2909.131.1.3)
+7. <span id="ref7"></span>"[English phonology](https://en.wikipedia.org/wiki/English_phonology)," Wikipedia.
+8. <span id="ref8"></span>J. C. Wells, *Accents of English* (Cambridge University Press, 1982).
+9. <span id="ref9"></span>"[Noah Webster](https://en.wikipedia.org/wiki/Noah_Webster#Spelling_reform)," Wikipedia.
+10. <span id="ref10"></span>"[Benjamin Franklin's phonetic alphabet](https://en.wikipedia.org/wiki/Benjamin_Franklin%27s_phonetic_alphabet)," Wikipedia.
+11. <span id="ref11"></span>"[Deseret alphabet](https://en.wikipedia.org/wiki/Deseret_alphabet)," Wikipedia.
+12. <span id="ref12"></span>"[Shavian alphabet](https://en.wikipedia.org/wiki/Shavian_alphabet)," Wikipedia.
+13. <span id="ref13"></span>"[Initial Teaching Alphabet](https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet)," Wikipedia.
+14. <span id="ref14"></span>"[English-language spelling reform](https://en.wikipedia.org/wiki/English-language_spelling_reform)," Wikipedia.
+15. <span id="ref15"></span>"[Cut Spelling](https://en.wikipedia.org/wiki/Cut_Spelling)," Wikipedia.
 
 
 
