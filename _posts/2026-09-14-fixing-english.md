@@ -50,7 +50,7 @@ marks:
 - one accent: á é í ó ú
 - two accents: a̋ e̋ i̋ ő ű
 
-I will call this the **DoAc** system, short for dots and accents. Five letters
+We call this the **DoAc** system, short for dots and accents. Five letters
 times five kinds of marks is 25 vowel signs. That is enough.
 
 ## How many vowel sounds
@@ -70,7 +70,7 @@ two of those signs in a row.
 Linguists already have names for these vowel families. Each family is called by
 one example word in capital letters [[8]](#ref8).
 STRUT is the family of *but* and *blood*. PALM is the family of *father* and
-*yacht*. TRAP is the family of *cat*. Those names are well known, so I keep
+*yacht*. TRAP is the family of *cat*. Those names are well known, so we keep
 them here.
 
 ## A mapping
@@ -89,7 +89,7 @@ two different *a* sounds that some Australian speakers have in *bad* and *lad*.
   </thead>
   <tbody>
     <tr><td style="padding:0.2em 0.9em;">STRUT</td><td style="padding:0.2em 0.9em;">but</td><td style="padding:0.2em 0.9em;">a</td><td style="padding:0.2em 0.9em;">bat</td></tr>
-    <tr><td style="padding:0.2em 0.9em;">PALM</td><td style="padding:0.2em 0.9em;">yacht</td><td style="padding:0.2em 0.9em;">á</td><td style="padding:0.2em 0.9em;">yát</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">PALM</td><td style="padding:0.2em 0.9em;">yacht</td><td style="padding:0.2em 0.9em;">á</td><td style="padding:0.2em 0.9em;">iát</td></tr>
     <tr><td style="padding:0.2em 0.9em;">TRAP</td><td style="padding:0.2em 0.9em;">cat</td><td style="padding:0.2em 0.9em;">ä</td><td style="padding:0.2em 0.9em;">kät</td></tr>
     <tr><td style="padding:0.2em 0.9em;">PRICE</td><td style="padding:0.2em 0.9em;">night</td><td style="padding:0.2em 0.9em;">ai</td><td style="padding:0.2em 0.9em;">nait</td></tr>
     <tr><td style="padding:0.2em 0.9em;">MOUTH</td><td style="padding:0.2em 0.9em;">now</td><td style="padding:0.2em 0.9em;">au</td><td style="padding:0.2em 0.9em;">nau</td></tr>
@@ -118,7 +118,26 @@ accent. It is also one reason American English is listed with fewer vowel
 sounds: it still writes and says the *r*.
 
 Consonants are easier. Do not write silent letters. If the sound is *k*, write
-*k*. We can keep *th*, *sh*, *ch*, and *ng*.
+*k*. We can keep *th*, *sh*, *ch*, and *ng*. The *j* in *jeep* stays *j*. The
+glide at the start of *yes* is written *i*, not *y*: *yes* is *ies*, *yacht* is
+*iát*, *you* is *iú*. After a consonant the same *i* is used, so *queue* is
+*kiú* and *beautiful* is *biútifėl*. Then *y* is spare.
+
+This map keeps LOT, THOUGHT, and PALM apart (*kot*, *thöt*, *iát*). Many
+speakers merge some of those. A writer who merges them can use fewer marks.
+
+Should one accent be the standard? Canadian English could be seen as a strong
+candidate. It is rhotic, so every hearable *r* is written, which matches the
+rule above. It sits close to General American, already the main model in film,
+pop music, and many classrooms. It is relatively uniform from coast to coast.
+However, two familiar Canadian facts would hide splits that other large accents
+still make. Many speakers merge LOT and THOUGHT, so *cot* and *caught* would
+look the same, and PALM often joins them. Raising of PRICE before voiceless
+consonants would also split *night* and *ride*, so they would no longer share
+one spelling. Learners and dictionaries already name General American or
+Received Pronunciation. The shared standard here is the Wells set, not a
+national accent. The letters on the page then record one rhotic pronunciation,
+close to General American, while still leaving cells for British distinctions.
 
 ## Examples
 
@@ -146,18 +165,27 @@ More examples:
 
 <div style="text-align:center; margin: 1.2em 0;">
 <p><em>colonel</em> → <em>kërnel</em></p>
-<p><em>queue</em> → <em>kjú</em></p>
+<p><em>queue</em> → <em>kiú</em></p>
 <p><em>women</em> / <em>woman</em> → <em>wimin</em> / <em>wumėn</em></p>
 <p><em>one, two, eight, four</em> → <em>wan, tú, eit, för</em></p>
 <p><em>knight</em> → <em>nait</em> (same as <em>night</em>)</p>
 <p><em>choir</em> → <em>kwaiėr</em></p>
-<p><em>yacht</em> → <em>yát</em></p>
+<p><em>yacht</em> → <em>iát</em></p>
 <p><em>Leicester</em> → <em>lestër</em></p>
-<p><em>beautiful</em> → <em>bjútifėl</em></p>
+<p><em>beautiful</em> → <em>biútifėl</em></p>
 <p><em>knowledge</em> → <em>nolij</em></p>
-<p><em>I owe you</em> → <em>ai ou yú</em></p>
+<p><em>yes</em> → <em>ies</em></p>
+<p><em>I owe you</em> → <em>ai ou iú</em></p>
 <p><em>here / hair / sure</em> → <em>hïr / he̋r / shür</em></p>
 <p><em>cot / caught / cart</em> → <em>kot / köt / kárt</em></p>
+</div>
+
+A connected sentence uses the same map:
+
+<div style="text-align:center; margin: 1.2em 0;">
+<p><em>I told the colonel the choir would wait in the yacht.</em></p>
+<p>becomes</p>
+<p><em>ai tould thė kërnel thė kwaiėr wud weit in thė iát</em></p>
 </div>
 
 There is an old joke that *fish* could be written *ghoti*. The joke takes the
@@ -168,11 +196,17 @@ works only because the same letters change sound from word to word. If each
 letter had one sound, *ghoti* could not mean *fish*. In DoAc, *fish* is written
 *fish*.
 
-This would take time to type. Different accents would not pick the same marks
-for every word. People who like old spellings would not like it. Children
-already spend years on the old spellings. We have 25 signs, and British English
-has 20 to 25 vowel sounds. We do not lack signs. We lack a writing system that
-starts from the sounds.
+This would take time to type. The marks are not a new keyboard: a long press on
+a phone already offers *á* and *ä*. Writing with no dots or accents can be
+treated as fine for speed: *thot* for *thöt*, *the* for *thė*. A reader who
+already knows the map can recover the vowels. That page is still formally
+incomplete. The marks are what keep the vowel families apart. A fast note can
+drop them. A primer or a public text should keep them.
+
+Different accents would not pick the same marks for every word. People who like
+old spellings would not like it. Children already spend years on the old
+spellings. We have 25 signs, and British English has 20 to 25 vowel sounds. We
+do not lack signs. We lack a writing system that starts from the sounds.
 
 ## Earlier attempts
 
@@ -209,7 +243,26 @@ in a new form.
 So the old attempts miss at least one of these: they leave the Latin alphabet,
 they do not have enough vowel signs, they change too little, or they make
 children learn two systems. DoAc keeps the familiar letters, adds marks so
-there are enough vowel signs, and is one system, not two.
+there are enough vowel signs, and is one system, not two. In the checklist
+below, *ies* is DoAc for *yes*.
+
+<table style="margin-left:auto;margin-right:auto;border-collapse:separate;border-spacing:1.5em 0.4em;text-align:left;">
+  <thead>
+    <tr>
+      <th style="padding:0.35em 0.9em;text-align:left;">kind of reform</th>
+      <th style="padding:0.35em 0.9em;text-align:left;">Latin letters</th>
+      <th style="padding:0.35em 0.9em;text-align:left;">enough vowel signs</th>
+      <th style="padding:0.35em 0.9em;text-align:left;">one system for life</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding:0.2em 0.9em;">Webster-style tweaks</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">ies</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">new alphabet (Shavian)</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">ies, if adopted</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">Initial Teaching Alphabet</td><td style="padding:0.2em 0.9em;">partly</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">no</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">26-letter respelling</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">ies</td></tr>
+    <tr><td style="padding:0.2em 0.9em;"><strong>DoAc</strong></td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">ies</td></tr>
+  </tbody>
+</table>
 
 What do you think? Would you read English in DoAc? Some signs are still free,
 like *ị ȯ ụ i̋ ű*. That gap is for the difference between 20 and 25 vowel
