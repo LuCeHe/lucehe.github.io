@@ -4,6 +4,22 @@ Luca Herranz-Celotti
 luca.celotti_herranz@sorbonne-universite.fr
 
 Intended for English Today. Please consider this submission for editor review.
+
+Abstract
+English spelling takes children more than twice as long to learn as regular
+systems such as Italian, because the letters do not keep one sound. The
+International Phonetic Alphabet already writes the sounds, but most people
+will not use a new alphabet or a new keyboard. This paper proposes DoAc,
+short for dots and accents: the five familiar vowel letters, each with five
+kinds of Hungarian-style mark, giving 25 vowel signs. That is enough for the
+high British count of vowel phonemes. When two vowels are heard, as in night,
+they are written as two letters (nait). If an r is heard, it is written. The
+palatal glide is written i (yes is ies, yacht is iát, queue is kiú). Unmarked
+vowels may be used for speed, but they are formally incomplete. Earlier
+reforms left the Latin alphabet, ran out of vowel signs, changed too little,
+or made children learn two systems. DoAc is a capacity argument and a working
+map, not a teaching trial.
+
 Keywords: English spelling; orthography; vowels; diacritics; literacy; spelling reform
 
 
@@ -277,18 +293,17 @@ they do not have enough vowel signs, they change too little, or they make
 children learn two systems. DoAc keeps the familiar letters, adds marks so
 there are enough vowel signs, and is one system, not two.
 
-Table 2 states the same contrast in one place. The answers are written in DoAc:
-ies for yes.
+Table 2 states the same contrast in one place.
 
 **Table 2.** What each kind of reform keeps, and what it drops.
 
 | Kind of reform | Latin letters | Enough vowel signs | One system for life |
 | --- | --- | --- | --- |
-| Webster-style tweaks | ies | no | ies |
-| New alphabet (Shavian) | no | ies | ies, if adopted |
-| Initial Teaching Alphabet | partly | ies | no |
-| 26-letter respelling | ies | no | ies |
-| DoAc | ies | ies | ies |
+| Webster-style tweaks | yes | no | yes |
+| New alphabet (Shavian) | no | yes | yes, if adopted |
+| Initial Teaching Alphabet | partly | yes | no |
+| 26-letter respelling | yes | no | yes |
+| DoAc | yes | yes | yes |
 
 The table is a design checklist, not a history of failure. Webster succeeded
 because he asked for little. Shavian failed in use because it asked people to

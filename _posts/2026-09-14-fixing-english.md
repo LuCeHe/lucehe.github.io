@@ -243,8 +243,7 @@ in a new form.
 So the old attempts miss at least one of these: they leave the Latin alphabet,
 they do not have enough vowel signs, they change too little, or they make
 children learn two systems. DoAc keeps the familiar letters, adds marks so
-there are enough vowel signs, and is one system, not two. In the checklist
-below, *ies* is DoAc for *yes*.
+there are enough vowel signs, and is one system, not two.
 
 <table style="margin-left:auto;margin-right:auto;border-collapse:separate;border-spacing:1.5em 0.4em;text-align:left;">
   <thead>
@@ -256,11 +255,11 @@ below, *ies* is DoAc for *yes*.
     </tr>
   </thead>
   <tbody>
-    <tr><td style="padding:0.2em 0.9em;">Webster-style tweaks</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">ies</td></tr>
-    <tr><td style="padding:0.2em 0.9em;">new alphabet (Shavian)</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">ies, if adopted</td></tr>
-    <tr><td style="padding:0.2em 0.9em;">Initial Teaching Alphabet</td><td style="padding:0.2em 0.9em;">partly</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">no</td></tr>
-    <tr><td style="padding:0.2em 0.9em;">26-letter respelling</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">ies</td></tr>
-    <tr><td style="padding:0.2em 0.9em;"><strong>DoAc</strong></td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">ies</td><td style="padding:0.2em 0.9em;">ies</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">Webster-style tweaks</td><td style="padding:0.2em 0.9em;">yes</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">yes</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">new alphabet (Shavian)</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">yes</td><td style="padding:0.2em 0.9em;">yes, if adopted</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">Initial Teaching Alphabet</td><td style="padding:0.2em 0.9em;">partly</td><td style="padding:0.2em 0.9em;">yes</td><td style="padding:0.2em 0.9em;">no</td></tr>
+    <tr><td style="padding:0.2em 0.9em;">26-letter respelling</td><td style="padding:0.2em 0.9em;">yes</td><td style="padding:0.2em 0.9em;">no</td><td style="padding:0.2em 0.9em;">yes</td></tr>
+    <tr><td style="padding:0.2em 0.9em;"><strong>DoAc</strong></td><td style="padding:0.2em 0.9em;">yes</td><td style="padding:0.2em 0.9em;">yes</td><td style="padding:0.2em 0.9em;">yes</td></tr>
   </tbody>
 </table>
 
