@@ -99,28 +99,53 @@
   }
   table {
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     background: #fff;
+    table-layout: auto;
+  }
+  table.example {
+    width: 100%;
+  }
+  table.abstract-box {
+    width: 100%;
+    background: #f4f7f9;
+  }
+  table.kit {
+    width: auto;
+  }
+  .title {
+    font-family: Cambria, Georgia, "Palatino Linotype", Palatino, "Times New Roman", serif;
+    font-size: 22pt;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    color: #17364a;
+    margin: 0 0 14pt 0;
   }
   caption {
     caption-side: top;
-    text-align: left;
+    text-align: center;
     font-style: italic;
     font-size: 10.5pt;
     color: #444;
-    margin: 0 0 8pt 0;
+    margin: 0 0 4pt 0;
   }
   th {
     background: #17364a;
     color: #fff;
     font-weight: bold;
     text-align: left;
-    padding: 7pt 10pt;
+    padding: 3pt 8pt;
+    white-space: nowrap;
   }
   td {
-    padding: 6pt 10pt;
+    padding: 2pt 8pt;
     border-bottom: 0.6pt solid #d7dde2;
-    vertical-align: top;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-break: keep-all;
   }
   .odd { background: #f4f7f9; }
   .kit td:first-child { width: 32%; color: #8a4b24; font-style: italic; }
@@ -133,6 +158,11 @@
     padding: 10pt 14pt;
     margin: 14pt 0;
   }
+  .example.centered {
+    text-align: center;
+    border-left: none;
+    border-top: 5pt solid #c45c26;
+  }
   .example .ord {
     font-style: italic;
     margin: 0 0 6pt 0;
@@ -141,6 +171,7 @@
     font-size: 13pt;
     color: #17364a;
     margin: 0;
+    font-style: italic;
   }
   .example .label {
     font-size: 9pt;
@@ -163,11 +194,15 @@
 </head>
 <body>
 
-<p class="kicker">Submitted to English Today</p>
-<h1>Dots and accents: enough vowel signs for English, without a new alphabet</h1>
+<p class="kicker" style="color:#8a4b24; text-align:center; letter-spacing:0.18em; text-transform:uppercase;">Submitted to English Today</p>
+<p class="title" style="color:#17364a; text-align:center; font-size:22pt; font-weight:normal;">Dots and accents: enough vowel signs for English, without a new alphabet</p>
 <hr class="rule">
-<p class="abstract-label">Abstract</p>
-<p class="abstract">English spelling takes children more than twice as long to learn as regular systems such as Italian, because the letters do not keep one sound. The International Phonetic Alphabet already writes the sounds, but most people will not use a new alphabet or a new keyboard. This paper proposes DoAc, short for dots and accents: the five familiar vowel letters, each with five kinds of Hungarian-style mark, giving 25 vowel signs. That is enough for the high British count of vowel phonemes. When two vowels are heard, as in <i>night</i>, they are written as two letters (<i>nait</i>). If an <i>r</i> is heard, it is written. The palatal glide is written <i>i</i> (<i>yes</i> is <i>ies</i>, <i>yacht</i> is <i>iát</i>, <i>queue</i> is <i>kiú</i>). Unmarked vowels may be used for speed, but they are formally incomplete. Earlier reforms left the Latin alphabet, ran out of vowel signs, changed too little, or made children learn two systems. DoAc is a capacity argument and a working map, not a teaching trial.</p>
+<p class="abstract-label" style="color:#8a4b24; letter-spacing:0.14em; text-transform:uppercase;">Abstract</p>
+<table class="abstract-box" style="width:100%; background:#f4f7f9; border-collapse:collapse;">
+  <tr><td style="background:#f4f7f9; padding:12pt 14pt; white-space:normal;">
+    <p class="abstract" style="background:#f4f7f9; margin:0;">English spelling takes children more than twice as long to learn as regular systems such as Italian, because the letters do not keep one sound. The International Phonetic Alphabet already writes the sounds, but most people will not use a new alphabet or a new keyboard. This paper proposes DoAc, short for dots and accents: the five familiar vowel letters, each with five kinds of Hungarian-style mark, giving 25 vowel signs. That is enough for the high British count of vowel phonemes. When two vowels are heard, as in <i>night</i>, they are written as two letters (<i>nait</i>). If an <i>r</i> is heard, it is written. The palatal glide is written <i>i</i> (<i>yes</i> is <i>ies</i>, <i>yacht</i> is <i>iát</i>, <i>queue</i> is <i>kiú</i>). Unmarked vowels may be used for speed, but they are formally incomplete. Earlier reforms left the Latin alphabet, ran out of vowel signs, changed too little, or made children learn two systems. DoAc is a capacity argument and a working map, not a teaching trial.</p>
+  </td></tr>
+</table>
 <p class="keywords">Keywords: English spelling; orthography; vowels; diacritics; literacy; spelling reform</p>
 
 <p>English spelling is hard to teach because the letters often do not match the sounds. <i>One</i> starts with a <i>w</i> sound, but we do not write <i>w</i>. <i>Colonel</i> sounds like <i>kernel</i>. The letters <i>ough</i> are not one sound: they change from word to word, as in <i>though</i>, <i>tough</i>, <i>cough</i>, <i>plough</i>, and <i>through</i>.</p>
@@ -178,7 +213,7 @@
 
 <p>The argument is a capacity argument, not a claim that English will change tomorrow. Earlier reforms either left the Latin alphabet, or kept 26 letters and ran out of vowel signs, or changed too little, or made children learn two systems. DoAc is meant to avoid those four traps. We then give a working map, show connected examples, compare the design with earlier reforms, and say what the proposal does not yet prove.</p>
 
-<h2>The vowel problem, not the alphabet problem</h2>
+<h2 style="color:#17364a;">The vowel problem, not the alphabet problem</h2>
 
 <p>English has many more vowel sounds than vowel letters. A standard account gives about 20–25 vowel phonemes in Received Pronunciation, 14–16 in General American, and 19–21 in Australian English (Roach, 2004; Wells, 1982; see also the summary in Crystal, 2003). Some of the extra sounds are two vowels said one after the other, such as the sound in <i>night</i>. Some are a vowel plus <i>r</i>, such as the sound in <i>here</i>.</p>
 
@@ -188,16 +223,16 @@
 
 <p>This split matters for teaching. Ziegler and Goswami (2005) argue that English readers cannot rely on a single small unit, the letter, because letter-to-sound maps are inconsistent. They also use rimes and whole words. Italian children can stay with the small unit, because the map is stable. A reform that still uses 26 unmarked letters, and then invents new piles of digraphs, keeps that inconsistency in a new costume. A reform that invents 40 new shapes solves the map, but not the classroom, because the shapes are not on the phone. The useful middle is: keep the letters, mark the vowels, write two vowels when you hear two vowels.</p>
 
-<h2>DoAc: Latin letters, Hungarian-style marks</h2>
+<h2 style="color:#17364a;">DoAc: Latin letters, Hungarian-style marks</h2>
 
 <p>Hungarian already writes a large vowel system with Latin letters and a few stable marks. The full kit used here is:</p>
 
-<table class="kit">
-  <tr class="odd"><td>no mark</td><td>a &nbsp; e &nbsp; i &nbsp; o &nbsp; u</td></tr>
-  <tr><td>one dot</td><td>ȧ &nbsp; ė &nbsp; ị &nbsp; ȯ &nbsp; ụ</td></tr>
-  <tr class="odd"><td>two dots</td><td>ä &nbsp; ë &nbsp; ï &nbsp; ö &nbsp; ü</td></tr>
-  <tr><td>one accent</td><td>á &nbsp; é &nbsp; í &nbsp; ó &nbsp; ú</td></tr>
-  <tr class="odd"><td>two accents</td><td><span class="da">a&#x030B;</span> &nbsp; <span class="da">e&#x030B;</span> &nbsp; <span class="da">i&#x030B;</span> &nbsp; ő &nbsp; ű</td></tr>
+<table class="kit" style="background:#fff; width:auto;">
+  <tr class="odd"><td>no mark</td><td style="white-space:nowrap;">a e i o u</td></tr>
+  <tr><td>one dot</td><td style="white-space:nowrap;">ȧ ė ị ȯ ụ</td></tr>
+  <tr class="odd"><td>two dots</td><td style="white-space:nowrap;">ä ë ï ö ü</td></tr>
+  <tr><td>one accent</td><td style="white-space:nowrap;">á é í ó ú</td></tr>
+  <tr class="odd"><td>two accents</td><td style="white-space:nowrap;">a̋ e̋ i̋ ő ű</td></tr>
 </table>
 
 <p>Hungarian itself uses the double acute (two accents) because <i>ö</i> and <i>ü</i> can be long. English may not need every cell. The point of the grid is that the familiar five vowel letters, plus marks already used in Latin-script languages, are not short of signs. People do not need a new alphabet in order to have 25 vowel symbols.</p>
@@ -208,35 +243,40 @@
 
 <p>Lower-case <i>i</i> already has a tittle, so the extra overdot on <i>i</i> is the awkward cell. The grid lists <i>ị</i>, with the dot below, for that cell. In practice English can leave it empty. Spare cells are a feature. They are how 25 signs cover a range of 14 to 25 vowel phonemes without forcing every dialect to use every mark.</p>
 
-<h2>A working map</h2>
+<h2 style="color:#17364a;">A working map</h2>
 
 <p>Table 1 is one working map, not a national standard. Empty cells can be used later, for example for the two different <i>a</i> sounds that some Australian speakers have in <i>bad</i> and <i>lad</i>. The transcriptions are rhotic: if an <i>r</i> is heard, it is written. <i>Sure</i> is <i>shür</i>, not <i>shü</i>. Some British speakers can drop that <i>r</i>. That is their accent. It is also one reason General American is listed with fewer vowel phonemes: it still says the <i>r</i>.</p>
 
 <p>Consonants are the easy part. Silent letters are dropped. If the sound is <i>k</i>, write <i>k</i>. The digraphs <i>th, sh, ch,</i> and <i>ng</i> can stay. So can <i>s</i> and <i>z</i> for the two sibilants, and <i>j</i> for the sound in <i>jeep</i>. The palatal glide is written <i>i</i>, not <i>y</i>: <i>yes</i> is <i>ies</i>, <i>yacht</i> is <i>iát</i>, <i>you</i> is <i>iú</i>. After a consonant the same <i>i</i> is used, so <i>queue</i> is <i>kiú</i> and <i>beautiful</i> is <i>biútifėl</i>. The letter <i>y</i> is then spare. The letter <i>j</i> is only the <i>jeep</i> sound, not the glide. The letter <i>c</i> is not needed as a third way to write <i>k</i> or <i>s</i>. The letter <i>q</i> is not needed beside <i>u</i>. The letter <i>x</i> can be <i>ks</i>. None of this is new. Cut Spelling and New Spelling already cut silent letters. The hard part, and the part those systems still under-supply, is the vowels.</p>
 
-<table>
+<table style="background:#fff; border-collapse:collapse; width:auto; margin-left:auto; margin-right:auto;">
   <caption>Table 1. One DoAc map, using Wells (1982) lexical sets.</caption>
-  <tr><th>Linguistic group</th><th>Word</th><th>Vowel</th><th>Transcription</th></tr>
-  <tr class="odd"><td>STRUT</td><td>but</td><td class="vowel">a</td><td>bat</td></tr>
-  <tr><td>PALM</td><td>yacht</td><td class="vowel">á</td><td>iát</td></tr>
-  <tr class="odd"><td>TRAP</td><td>cat</td><td class="vowel">ä</td><td>kät</td></tr>
-  <tr><td>PRICE</td><td>night</td><td class="vowel">ai</td><td>nait</td></tr>
-  <tr class="odd"><td>MOUTH</td><td>now</td><td class="vowel">au</td><td>nau</td></tr>
-  <tr><td>DRESS</td><td>bed</td><td class="vowel">e</td><td>bed</td></tr>
-  <tr class="odd"><td>FACE</td><td>day</td><td class="vowel">ei</td><td>dei</td></tr>
-  <tr><td>COMMA</td><td>the</td><td class="vowel">ė</td><td>thė</td></tr>
-  <tr class="odd"><td>NURSE</td><td>colonel</td><td class="vowel">ë</td><td>kërnel</td></tr>
-  <tr><td>SQUARE</td><td>hair</td><td class="vowel"><span class="da">e&#x030B;</span></td><td>h<span class="da">e&#x030B;</span>r</td></tr>
-  <tr class="odd"><td>KIT</td><td>bit</td><td class="vowel">i</td><td>bit</td></tr>
-  <tr><td>FLEECE</td><td>see</td><td class="vowel">í</td><td>sí</td></tr>
-  <tr class="odd"><td>NEAR</td><td>here</td><td class="vowel">ï</td><td>hïr</td></tr>
-  <tr><td>LOT</td><td>cot</td><td class="vowel">o</td><td>kot</td></tr>
-  <tr class="odd"><td>GOAT</td><td>go</td><td class="vowel">ou</td><td>gou</td></tr>
-  <tr><td>THOUGHT</td><td>thought</td><td class="vowel">ö</td><td>thöt</td></tr>
-  <tr class="odd"><td>CHOICE</td><td>boy</td><td class="vowel">oi</td><td>boi</td></tr>
-  <tr><td>FOOT</td><td>book</td><td class="vowel">u</td><td>buk</td></tr>
-  <tr class="odd"><td>GOOSE</td><td>too</td><td class="vowel">ú</td><td>tú</td></tr>
-  <tr><td>CURE</td><td>sure</td><td class="vowel">ü</td><td>shür</td></tr>
+  <tr>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Linguistic group</th>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Word</th>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Vowel</th>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Transcription</th>
+  </tr>
+  <tr class="odd"><td>STRUT</td><td>but</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">a</td><td>bat</td></tr>
+  <tr><td>PALM</td><td>yacht</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">á</td><td>iát</td></tr>
+  <tr class="odd"><td>TRAP</td><td>cat</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ä</td><td>kät</td></tr>
+  <tr><td>PRICE</td><td>night</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ai</td><td>nait</td></tr>
+  <tr class="odd"><td>MOUTH</td><td>now</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">au</td><td>nau</td></tr>
+  <tr><td>DRESS</td><td>bed</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">e</td><td>bed</td></tr>
+  <tr class="odd"><td>FACE</td><td>day</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ei</td><td>dei</td></tr>
+  <tr><td>COMMA</td><td>the</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ė</td><td>thė</td></tr>
+  <tr class="odd"><td>NURSE</td><td>colonel</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ë</td><td>kërnel</td></tr>
+  <tr><td>SQUARE</td><td>hair</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">e̋</td><td>he̋r</td></tr>
+  <tr class="odd"><td>KIT</td><td>bit</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">i</td><td>bit</td></tr>
+  <tr><td>FLEECE</td><td>see</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">í</td><td>sí</td></tr>
+  <tr class="odd"><td>NEAR</td><td>here</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ï</td><td>hïr</td></tr>
+  <tr><td>LOT</td><td>cot</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">o</td><td>kot</td></tr>
+  <tr class="odd"><td>GOAT</td><td>go</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ou</td><td>gou</td></tr>
+  <tr><td>THOUGHT</td><td>thought</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ö</td><td>thöt</td></tr>
+  <tr class="odd"><td>CHOICE</td><td>boy</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">oi</td><td>boi</td></tr>
+  <tr><td>FOOT</td><td>book</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">u</td><td>buk</td></tr>
+  <tr class="odd"><td>GOOSE</td><td>too</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ú</td><td>tú</td></tr>
+  <tr><td>CURE</td><td>sure</td><td class="vowel" style="color:#17364a; font-weight:bold; white-space:nowrap;">ü</td><td>shür</td></tr>
 </table>
 
 <p>This map keeps LOT, THOUGHT, and PALM apart (<i>kot</i>, <i>thöt</i>, <i>iát</i>). Many Canadian and American speakers merge some of those. A writer who merges them can use fewer cells. The extra cells are for accents that still make the distinction, not a claim that every English speaker has 25 vowels.</p>
@@ -247,30 +287,34 @@
 
 <p>A few extra Wells sets fit the same rule. BATH follows PALM in the transcriptions here when the speaker has a long vowel (<i>staff</i> is <i>stáf</i>), and follows TRAP when the speaker has a short one (<i>stäf</i>). CLOTH follows THOUGHT or LOT according to the accent. happY is written <i>í</i>, like FLEECE, for speakers who have a tense ending in <i>happy</i>. None of this needs a new kind of mark. It needs a choice, stated once, about whose voice is on the page.</p>
 
-<h2>What the page then looks like</h2>
+<h2 style="color:#17364a;">What the page then looks like</h2>
 
 <p>Once the vowels are marked, the famous hard words become ordinary strings.</p>
 
-<div class="example">
-  <p class="label">Example 1</p>
-  <p class="ord">Though the tough cough and hiccough plough him through</p>
-  <p class="doac">thou thė taf köf ėnd hikap plau him thrú</p>
-</div>
+<table class="example" style="width:100%; background:#f6f1ea; border-collapse:collapse; border-left:5pt solid #c45c26;">
+  <tr><td style="background:#f6f1ea; text-align:center; padding:10pt 14pt; white-space:normal;">
+    <p class="label" style="color:#8a4b24; text-align:center; letter-spacing:0.12em; text-transform:uppercase; font-size:9pt;">Example 1</p>
+    <p class="ord" style="text-align:center; font-style:italic; margin:0 0 6pt 0;"><i>Though the tough cough and hiccough plough him through</i></p>
+    <p class="doac" style="text-align:center; font-style:italic; font-size:13pt; color:#17364a; margin:0;"><i>thou thė taf köf ėnd hikap plau him thrú</i></p>
+  </td></tr>
+</table>
 
 <p>Those words look alike in ordinary English. In DoAc they have different vowels, because they have different sounds.</p>
 
-<div class="example">
-  <p class="label">Example 2</p>
-  <p class="ord">The rain in Spain stays mainly in the plain</p>
-  <p class="doac">thė rein in spein steiz meinli in thė plein</p>
-</div>
+<table class="example" style="width:100%; background:#f6f1ea; border-collapse:collapse; border-left:5pt solid #c45c26;">
+  <tr><td style="background:#f6f1ea; text-align:center; padding:10pt 14pt; white-space:normal;">
+    <p class="label" style="color:#8a4b24; text-align:center; letter-spacing:0.12em; text-transform:uppercase; font-size:9pt;">Example 2</p>
+    <p class="ord" style="text-align:center; font-style:italic; margin:0 0 6pt 0;"><i>The rain in Spain stays mainly in the plain</i></p>
+    <p class="doac" style="text-align:center; font-style:italic; font-size:13pt; color:#17364a; margin:0;"><i>thė rein in spein steiz meinli in thė plein</i></p>
+  </td></tr>
+</table>
 
 <p>Rain, Spain, stays, mainly, and plain now share the same two letters, <i>ei</i>.</p>
 
 <p>Further specimens:</p>
 
-<table class="specimens">
-  <tr><th>Ordinary English</th><th>DoAc</th></tr>
+<table class="specimens" style="background:#fff; border-collapse:collapse; width:auto; margin-left:auto; margin-right:auto;">
+  <tr><th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Ordinary English</th><th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">DoAc</th></tr>
   <tr class="odd"><td>colonel</td><td>kërnel</td></tr>
   <tr><td>queue</td><td>kiú</td></tr>
   <tr class="odd"><td>women / woman</td><td>wimin / wumėn</td></tr>
@@ -283,23 +327,25 @@
   <tr><td>knowledge</td><td>nolij</td></tr>
   <tr class="odd"><td>yes</td><td>ies</td></tr>
   <tr><td>I owe you</td><td>ai ou iú</td></tr>
-  <tr class="odd"><td>here / hair / sure</td><td>hïr / h<span class="da">e&#x030B;</span>r / shür</td></tr>
+  <tr class="odd"><td>here / hair / sure</td><td>hïr / he̋r / shür</td></tr>
   <tr><td>cot / caught / cart</td><td>kot / köt / kárt</td></tr>
 </table>
 
 <p>A connected sentence shows the same map at work, rather than a list of curiosities:</p>
 
-<div class="example">
-  <p class="label">Example 3</p>
-  <p class="ord">I told the colonel the choir would wait in the yacht.</p>
-  <p class="doac">ai tould thė kërnel thė kwaiėr wud weit in thė iát</p>
-</div>
+<table class="example" style="width:100%; background:#f6f1ea; border-collapse:collapse; border-left:5pt solid #c45c26;">
+  <tr><td style="background:#f6f1ea; text-align:center; padding:10pt 14pt; white-space:normal;">
+    <p class="label" style="color:#8a4b24; text-align:center; letter-spacing:0.12em; text-transform:uppercase; font-size:9pt;">Example 3</p>
+    <p class="ord" style="text-align:center; font-style:italic; margin:0 0 6pt 0;"><i>I told the colonel the choir would wait in the yacht.</i></p>
+    <p class="doac" style="text-align:center; font-style:italic; font-size:13pt; color:#17364a; margin:0;"><i>ai tould thė kërnel thė kwaiėr wud weit in thė iát</i></p>
+  </td></tr>
+</table>
 
 <p>Ordinary function words are written as they sound: <i>I</i> is <i>ai</i>, <i>the</i> is <i>thė</i>, <i>would</i> is <i>wud</i>. That is the point of starting from the sounds. It is also why a phonetic page will look strange on the first day, and then look regular.</p>
 
 <p>There is an old joke, often linked with George Bernard Shaw though the joke is older, that <i>fish</i> could be written <i>ghoti</i>. The joke takes the <i>gh</i> sound from <i>enough</i> (an <i>f</i> sound), the <i>o</i> sound from <i>women</i> (an <i>i</i> sound), and the <i>ti</i> sound from <i>nation</i> (an <i>sh</i> sound). Put <i>f + i + sh</i> together, and you get <i>fish</i> (Crystal, 2012). The joke works only because the same letters change sound from word to word. If each letter had one sound, <i>ghoti</i> could not mean <i>fish</i>. In DoAc, <i>fish</i> is written <i>fish</i>.</p>
 
-<h2>Why earlier reforms fall short</h2>
+<h2 style="color:#17364a;">Why earlier reforms fall short</h2>
 
 <p>Spelling reform is old. The attempts fall into a few groups, and each group misses something that DoAc tries to keep.</p>
 
@@ -313,19 +359,24 @@
 
 <p>So the old attempts miss at least one of these: they leave the Latin alphabet, they do not have enough vowel signs, they change too little, or they make children learn two systems. DoAc keeps the familiar letters, adds marks so there are enough vowel signs, and is one system, not two.</p>
 
-<table>
+<table style="background:#fff; border-collapse:collapse; width:auto; margin-left:auto; margin-right:auto;">
   <caption>Table 2. What each kind of reform keeps, and what it drops.</caption>
-  <tr><th>Kind of reform</th><th>Latin letters</th><th>Enough vowel signs</th><th>One system for life</th></tr>
-  <tr class="odd"><td>Webster-style tweaks</td><td class="yes">yes</td><td class="no">no</td><td class="yes">yes</td></tr>
-  <tr><td>New alphabet (Shavian)</td><td class="no">no</td><td class="yes">yes</td><td>yes, if adopted</td></tr>
-  <tr class="odd"><td>Initial Teaching Alphabet</td><td class="part">partly</td><td class="yes">yes</td><td class="no">no</td></tr>
-  <tr><td>26-letter respelling</td><td class="yes">yes</td><td class="no">no</td><td class="yes">yes</td></tr>
-  <tr class="doac-row"><td><b>DoAc</b></td><td class="yes">yes</td><td class="yes">yes</td><td class="yes">yes</td></tr>
+  <tr>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Kind of reform</th>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Latin letters</th>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">Enough vowel signs</th>
+    <th style="background:#17364a; color:#fff; padding:3pt 8pt; white-space:nowrap;">One system for life</th>
+  </tr>
+  <tr class="odd"><td>Webster-style tweaks</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td><td class="no" style="color:#aa3333; font-weight:bold; white-space:nowrap;">no</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td></tr>
+  <tr><td>New alphabet (Shavian)</td><td class="no" style="color:#aa3333; font-weight:bold; white-space:nowrap;">no</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td><td>yes, if adopted</td></tr>
+  <tr class="odd"><td>Initial Teaching Alphabet</td><td class="part" style="color:#8a4b24; font-weight:bold; white-space:nowrap;">partly</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td><td class="no" style="color:#aa3333; font-weight:bold; white-space:nowrap;">no</td></tr>
+  <tr><td>26-letter respelling</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td><td class="no" style="color:#aa3333; font-weight:bold; white-space:nowrap;">no</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td></tr>
+  <tr class="doac-row"><td style="background:#eaf2e8; white-space:nowrap;"><b>DoAc</b></td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td><td class="yes" style="color:#1d6b3c; font-weight:bold; white-space:nowrap;">yes</td></tr>
 </table>
 
 <p>The table is a design checklist, not a history of failure. Webster succeeded because he asked for little. Shavian failed in use because it asked people to leave the alphabet. The Initial Teaching Alphabet asked children to succeed twice. New Spelling asked 26 letters to do 40 sounds. DoAc asks for marks on the letters already in the font.</p>
 
-<h2>How it would be typed</h2>
+<h2 style="color:#17364a;">How it would be typed</h2>
 
 <p>A fair objection is that marks are slower to type than plain <i>a, e, i, o, u</i>. They are. They are still not a new keyboard. On a phone, a long press on <i>a</i> already offers <i>á</i> and <i>ä</i>. Windows and macOS already ship a United States International layout. A Hungarian layout already has <i>ő</i> and <i>ű</i>. Unicode already contains the precomposed Hungarian letters and the combining double acute for the rarer cells. That is a different cost from Shavian, which needs a font before the first word can be sent.</p>
 
@@ -333,24 +384,24 @@
 
 <p>In a classroom, the marks can be introduced as a reading aid first, the way some dictionaries already print stress and quality. Children would not have to throw the alphabet away in June and learn another one in September. That was the ITA problem. DoAc is the same alphabet, with the vowel quality made visible.</p>
 
-<h2>What would count as a test</h2>
+<h2 style="color:#17364a;">What would count as a test</h2>
 
-<p>We do not report a teaching trial. A fair test would not ask whether adults like the look of <i>shür</i>. It would ask how long it takes new readers to reach the accuracy that Italian children reach in year 1, on matched lists of familiar words and simple invented words, in the spirit of Seymour, Aro and Erskine (2003). Until that trial exists, DoAc is a claim about signs, not a claim about classrooms. The literacy numbers cited above show that English spelling has a cost. They do not yet show that this notation removes it.</p>
+<p>We do not report a teaching trial. A first test would take people who are learning to read English for the first time and split them at random into two groups. One group is taught with DoAc. The other group is taught with ordinary English spelling. After one day of lessons, both groups read the same list of familiar words and simple invented words aloud. An evaluator who cannot see the page, and does not know which group the reader is in, scores only from the audio: which group reads more words correctly. That is closer to Seymour, Aro and Erskine (2003) than asking adults whether they like the look of <i>shür</i>. Until that trial exists, DoAc is a claim about signs, not a claim about classrooms. The literacy numbers cited above show that English spelling has a cost. They do not yet show that this notation removes it.</p>
 
-<h2>Limits</h2>
+<h2 style="color:#17364a;">Limits</h2>
 
-<p>DoAc is a proposal, not a tested teaching method. We have not asked children to learn it. Different accents will not pick the same marks for every word. People who like old spellings will not like it. Morphology is sometimes hidden: <i>sign</i> and <i>signature</i> would no longer look like the same family (<i>sain</i>, <i>signėchėr</i>), which is a cost that strictly phonetic systems always pay. The same is true of <i>nation</i> and <i>national</i>, of <i>heal</i> and <i>health</i>. Etymology on the page is a feature of the present spelling. Regular sound is a feature of Italian. A reform cannot maximise both.</p>
+<p>DoAc is a proposal, not a tested teaching method. We have not asked children to learn it. Different accents will not pick the same marks for every word. People who like old spellings will not like it. Morphology is sometimes hidden: <i>sign</i> and <i>signature</i> would no longer look like the same family (<i>sain</i>, <i>signėchėr</i>), which is a cost that strictly phonetic systems always pay. The same is true of <i>nation</i> and <i>national</i>, of <i>heal</i> and <i>health</i>. Etymology on the page is a feature of the present spelling. Regular sound is a feature of Spanish, Italian, German, Finnish, and Hungarian. A reform cannot maximise both.</p>
 
 <p>Typing the marks is slower than typing plain <i>a, e, i, o, u</i>, even if it does not require a new alphabet. Publishers would have to accept combining characters. Spellcheckers would have to be rewritten. None of that is small. It is still smaller than asking the public to learn 40 new shapes.</p>
 
 <p>The claim is narrower. English does not lack symbols. Five letters and five kinds of mark already give 25 vowel signs. That is more than the usual schoolbook count, and it matches the high end of Received Pronunciation. Children already spend years on the old spellings. The missing piece is not a new alphabet. It is a writing system that starts from the sounds and stays on the letters people already have.</p>
 
-<h2>Declaration of AI use</h2>
-<p>Large language models accessed through the Cursor editor (Anysphere, versions current in September 2026) were used between 14 and 18 September 2026 to draft, restructure, copy-edit, and format this manuscript, including tables and example transcriptions. The author reviewed every sentence, checked the linguistic claims and citations, and takes full responsibility for the accuracy, integrity, and originality of the text. AI tools were not used to collect or analyse data, and they were not used to generate images. No large language model is listed as an author.</p>
+<h2 style="color:#17364a;">Declaration of AI use</h2>
+<p>Large language models accessed through the Cursor editor (Anysphere, versions current in September 2026) were used between 14 and 18 September 2026 to draft, restructure, copy-edit, and format this manuscript, including tables and example transcriptions. The author reviewed every sentence, checked the linguistic claims and citations, and takes full responsibility for the accuracy, integrity, and originality of the text. AI tools were not used to collect or analyse data, and they were not used to generate images.</p>
 
 <hr class="rule-thin">
 
-<h2>References</h2>
+<h2 style="color:#17364a;">References</h2>
 
 <p>Cossu, G., Gugliotta, M. &amp; Marshall, J. C. 1995. ‘Acquisition of reading and written spelling in a transparent orthography: Two non parallel processes?’ <i>Reading and Writing</i>, 7, 9–22.</p>
 <p>Crystal, D. 2003. <i>The Cambridge Encyclopedia of the English Language</i>. 2nd edn. Cambridge: Cambridge University Press.</p>
@@ -367,7 +418,7 @@
 <p>Wells, J. C. 1982. <i>Accents of English</i>. Cambridge: Cambridge University Press.</p>
 <p>Ziegler, J. C. &amp; Goswami, U. 2005. ‘Reading acquisition, developmental dyslexia, and skilled reading across languages: A psycholinguistic grain size theory.’ <i>Psychological Bulletin</i>, 131(1), 3–29.</p>
 
-<h2>Websites</h2>
+<h2 style="color:#17364a;">Websites</h2>
 <p>Deseret alphabet. Wikipedia. <a href="https://en.wikipedia.org/wiki/Deseret_alphabet">https://en.wikipedia.org/wiki/Deseret_alphabet</a> (accessed 16 September 2026).</p>
 <p>English phonology. Wikipedia. <a href="https://en.wikipedia.org/wiki/English_phonology">https://en.wikipedia.org/wiki/English_phonology</a> (accessed 16 September 2026).</p>
 <p>Initial Teaching Alphabet. Wikipedia. <a href="https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet">https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet</a> (accessed 16 September 2026).</p>

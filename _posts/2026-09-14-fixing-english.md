@@ -203,6 +203,15 @@ already knows the map can recover the vowels. That page is still formally
 incomplete. The marks are what keep the vowel families apart. A fast note can
 drop them. A primer or a public text should keep them.
 
+A first test would take people who are learning to read English for the first
+time and split them at random into two groups. One group is taught with DoAc.
+The other group is taught with ordinary English spelling. After one day of
+lessons, both groups read the same list of familiar words and simple invented
+words aloud. An evaluator who cannot see the page, and does not know which
+group the reader is in, scores only from the audio: which group reads more
+words correctly. Until that trial exists, this is a claim about signs, not a
+claim about classrooms.
+
 Different accents would not pick the same marks for every word. People who like
 old spellings would not like it. Children already spend years on the old
 spellings. We have 25 signs, and British English has 20 to 25 vowel sounds. We

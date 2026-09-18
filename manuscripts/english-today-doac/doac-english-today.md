@@ -1,10 +1,5 @@
 Dots and accents: enough vowel signs for English, without a new alphabet
 
-Luca Herranz-Celotti
-luca.celotti_herranz@sorbonne-universite.fr
-
-Intended for English Today. Please consider this submission for editor review.
-
 Abstract
 English spelling takes children more than twice as long to learn as regular
 systems such as Italian, because the letters do not keep one sound. The
@@ -337,13 +332,17 @@ visible.
 
 What would count as a test
 
-We do not report a teaching trial. A fair test would not ask whether
-adults like the look of shür. It would ask how long it takes new readers to
-reach the accuracy that Italian children reach in year 1, on matched lists of
-familiar words and simple invented words, in the spirit of Seymour, Aro and
-Erskine (2003). Until that trial exists, DoAc is a claim about signs, not a
-claim about classrooms. The literacy numbers cited above show that English
-spelling has a cost. They do not yet show that this notation removes it.
+We do not report a teaching trial. A first test would take people who are
+learning to read English for the first time and split them at random into two
+groups. One group is taught with DoAc. The other group is taught with ordinary
+English spelling. After one day of lessons, both groups read the same list of
+familiar words and simple invented words aloud. An evaluator who cannot see
+the page, and does not know which group the reader is in, scores only from the
+audio: which group reads more words correctly. That is closer to Seymour, Aro
+and Erskine (2003) than asking adults whether they like the look of shür.
+Until that trial exists, DoAc is a claim about signs, not a claim about
+classrooms. The literacy numbers cited above show that English spelling has a
+cost. They do not yet show that this notation removes it.
 
 
 Limits
@@ -354,7 +353,8 @@ who like old spellings will not like it. Morphology is sometimes hidden: sign
 and signature would no longer look like the same family (sain, signėchėr),
 which is a cost that strictly phonetic systems always pay. The same is true of
 nation and national, of heal and health. Etymology on the page is a feature of
-the present spelling. Regular sound is a feature of Italian. A reform cannot
+the present spelling. Regular sound is a feature of Spanish, Italian, German,
+Finnish, and Hungarian. A reform cannot
 maximise both.
 
 Typing the marks is slower than typing plain a, e, i, o, u, even if it does not
@@ -368,6 +368,17 @@ schoolbook count, and it matches the high end of Received Pronunciation.
 Children already spend years on the old spellings. The missing piece is not a
 new alphabet. It is a writing system that starts from the sounds and stays on
 the letters people already have.
+
+
+Declaration of AI use
+
+Large language models accessed through the Cursor editor (Anysphere, versions
+current in September 2026) were used between 14 and 18 September 2026 to draft,
+restructure, copy-edit, and format this manuscript, including tables and
+example transcriptions. The author reviewed every sentence, checked the
+linguistic claims and citations, and takes full responsibility for the
+accuracy, integrity, and originality of the text. AI tools were not used to
+collect or analyse data, and they were not used to generate images.
 
 
 References
@@ -434,14 +445,3 @@ https://en.wikipedia.org/wiki/Initial_Teaching_Alphabet (accessed 16 September
 Shavian alphabet. Wikipedia. https://en.wikipedia.org/wiki/Shavian_alphabet
 (accessed 16 September 2026).
 
-
-Author biography (100-150 words)
-
-Luca Herranz-Celotti works on machine learning and computational neuroscience,
-with a focus on gradient stability in deep networks and spiking neurons. He
-completed his doctorate at Université de Sherbrooke. He is at Sorbonne
-Université. He has interned with Wolfgang Maass and Alexandre Pouget, and has
-worked on multimodal learning, hearing-aid speech enhancement, and the
-mathematics of exploding gradients in recurrent networks. This article is a
-side proposal: a Latin-letter vowel notation for English, using dots and
-accents.
